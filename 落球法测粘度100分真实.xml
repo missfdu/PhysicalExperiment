@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExamPaper>
+  <Title>
+    <Name>落球法测定液体的粘度</Name>
+    <Id>SIMQUEST_LQFCYTND_V001</Id>
+    <Writer>
+      <Id>出卷人ＩＤ</Id>
+      <Name>出卷人名称</Name>
+    </Writer>
+    <User>
+      <Id>使用者ＩＤ</Id>
+      <Name>使用者姓名</Name>
+      <Time>
+        <MaxTime>考试时间限制</MaxTime>
+        <RealTime>3276</RealTime>
+      </Time>
+    </User>
+    <FinalResult>true</FinalResult>
+  </Title>
+  <Content>
+    <Question Type="OP">
+      <Sn>题目编号1</Sn>
+      <Name>落球法测定液体的粘度</Name>
+      <Id>SIMQUEST_LQFCYTND_V001</Id>
+      <Type>实验内容</Type>
+      <Score>
+        <Total>100</Total>
+        <RealScore>100</RealScore>
+      </Score>
+      <Script>
+        <DOC>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="落球法测定液体的粘度。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="1 检查仪器前面的水位管，将水箱水加到适当值，实验中默认水位合适。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="2 设定温控实验仪PID参数，实验中使用默认参数。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="3 测定小球直径，使用螺旋测微计多次测量小球直径，求取平均值。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="4 测定小球在液体中下落速度并计算粘度。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）温控仪温度达到设定值后再等约10分钟（实验中当温控仪温度达到设定温度后，读数不再变化即可），使样品管中的待测液体温度与加热水温完全一致，才能测液体粘度。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）用镊子夹住小球沿样品管中心轻轻放入液体，观察小球是否一直沿中心下落，若样品管倾斜，应调节其铅直（默认样品管铅直）。测量过程中，尽量避免对液体的扰动。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）用停表测量小球落经一段距离的时间t，求出小球速度v0，并计算粘度η，记入实验表格。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）实验全部完成后，用磁铁将小球吸引至样品管口，用镊子夹入蓖麻油中保存，以备下次实验使用。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="5 根据测量结果完成数据表格。" TextDecorations="" />
+          </Paragraph>
+        </DOC>
+      </Script>
+      <InitialStatus>
+        <Script>
+          仪器：温控实验仪、螺旋测微器、秒表、镊子、盘子
+          仪器的初始状态：螺旋测微器、秒表、镊子、盘子在桌面范围内可任意放置。
+        </Script>
+        <ConfigFile>SIMQUEST_LQFCYTND_V001.xml</ConfigFile>
+      </InitialStatus>
+      <KeyPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="落球法测定液体的粘度。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="1 检查仪器前面的水位管，将水箱水加到适当值，实验中默认水位合适。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="2 设定温控实验仪PID参数，实验中使用默认参数。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="3 测定小球直径，使用螺旋测微计多次测量小球直径，求取平均值。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="4 测定小球在液体中下落速度并计算粘度。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）温控仪温度达到设定值后再等约10分钟（实验中当温控仪温度达到设定温度后，读数不再变化即可），使样品管中的待测液体温度与加热水温完全一致，才能测液体粘度。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）用镊子夹住小球沿样品管中心轻轻放入液体，观察小球是否一直沿中心下落，若样品管倾斜，应调节其铅直（默认样品管铅直）。测量过程中，尽量避免对液体的扰动。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）用停表测量小球落经一段距离的时间t，求出小球速度v0，并计算粘度η，记入实验表格。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）实验全部完成后，用磁铁将小球吸引至样品管口，用镊子夹入蓖麻油中保存，以备下次实验使用。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="5 根据测量结果完成数据表格。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+      </KeyPoint>
+      <CheckPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="落球法测定液体的粘度。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="1 检查仪器前面的水位管，将水箱水加到适当值，实验中默认水位合适。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="2 设定温控实验仪PID参数，实验中使用默认参数。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="3 测定小球直径，使用螺旋测微计多次测量小球直径，求取平均值。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="4 测定小球在液体中下落速度并计算粘度。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）温控仪温度达到设定值后再等约10分钟（实验中当温控仪温度达到设定温度后，读数不再变化即可），使样品管中的待测液体温度与加热水温完全一致，才能测液体粘度。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）用镊子夹住小球沿样品管中心轻轻放入液体，观察小球是否一直沿中心下落，若样品管倾斜，应调节其铅直（默认样品管铅直）。测量过程中，尽量避免对液体的扰动。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）用停表测量小球落经一段距离的时间t，求出小球速度v0，并计算粘度η，记入实验表格。" TextDecorations="" />
+            </Paragraph>z
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000"><Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）实验全部完成后，用磁铁将小球吸引至样品管口，用镊子夹入蓖麻油中保存，以备下次实验使用。" TextDecorations="" /></Paragraph><Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000"><Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="5 根据测量结果完成数据表格。" TextDecorations="" /></Paragraph></DOC>
+        </Script>
+        <!--测量小球直径  4.5分-->
+        <TestTarget>
+          <Script>测量小球直径</Script>
+          <Group>
+            <!--测量小球直径  4.5分-->
+            <Para StudentVisible="True">
+              <sn>11</sn>
+              <Name>BallDList</Name>
+              <VarType Count="9">TList</VarType>
+              <Script>用螺旋测微器测定小球的直径d，并将测量结果记录到下面的表格中：</Script>
+              <RealResult>(次数,d(mm));(1,1.465);(2,1.463);(3,1.455);(4,1.462);(5,1.464);(6,1.471);(7,1.463);(8,1.461);(平均值,1.463)</RealResult>
+              <StdResult>(次数,d(mm));(1,1.463);(2,1.463);(3,1.463);(4,1.463);(5,1.463);(6,1.463);(7,1.463);(8,1.463);(平均值,1.463)</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>4.5</TotalScore>
+              <RealScore>4.5</RealScore>
+              <Para>
+                <Sn>0</Sn>
+                <Name>INDEX</Name>
+                <Script>次数;1;2;3;4;5;6;7;8;平均值</Script>
+                <VarType>int</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>DValue</Name>
+                <Script>d(mm)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.080</Min>
+                      <Max>0.080</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+            </Para>
+          </Group>
+          <RealScore>4.5</RealScore>
+        </TestTarget>
+        <!--粘度的测定   66-->
+        <TestTarget>
+          <Script>粘度的测定</Script>
+          <Group>
+            <!--小球下落距离  3.5 -->
+            <Para StudentVisible="True">
+              <sn>21</sn>
+              <Name>XJList</Name>
+              <VarType>double</VarType>
+              <Script>小球下落距离L（m）= </Script>
+              <RealResult>0.030</RealResult>
+              <StdResult>0.030</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>3.5</TotalScore>
+              <RealScore>3.5</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-0.005</Min>
+                    <Max>0.005</Max>
+                  </Range>
+                  <Score>3.5</Score>
+                  <AnswerShowInfo>原值</AnswerShowInfo>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-0.01</Min>
+                    <Max>0.01</Max>
+                  </Range>
+                  <Score>2</Score>
+                  <AnswerShowInfo>原值</AnswerShowInfo>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <!--计算下落时间 粘度的测定  84-->
+            <Para StudentVisible="True">
+              <sn>11</sn>
+              <Name>NDList</Name>
+              <VarType Count="8">TList</VarType>
+              <Script>已知：小球密度ρ = 7.8×103kg/m3，蓖麻油密度ρ0 = 0.95×103kg/m3，样品管直径D = 2.0×10-2m，重力加速度g=9.8m/s^2。使用温控实验仪控制蓖麻油温度范围为25~55℃之间，每隔5℃，进行该温度下液体粘度的测量。每个温度下，进行5次小球下落时间测量，分别记为t1、t2、t3、t4、t5，并计算下落时间平均值tp；根据测量结果完成下表：</Script>
+              <RealResult>(温度(℃),25,30,35,40,45,50,55);(t1(s),2.78,1.90,1.31,0.90,0.68,0.52,0.44);(t2(s),2.80,1.91,1.28,0.88,0.67,0.53,0.44);(t3(s),2.78,1.90,1.31,0.90,0.68,0.52,0.44);(t4(s),2.79,1.87,1.32,0.91,0.69,0.52,0.44);(t5(s),2.75,1.92,1.33,0.91,0.68,0.51,0.44);(平均值tp(s),2.78,1.90,1.31,0.90,0.68,0.52,0.44);(速度(m/s),0.011,0.016,0.023,0.033,0.044,0.057,0.067);(η(Pa*s)测量值,0.634,0.431,0.294,0.198,0.144,0.104,0.083)</RealResult>
+              <StdResult>(温度(℃),25,30,35,40,45,50,55);(t1(s),2.78,1.90,1.31,0.90,0.68,0.52,0.44);(t2(s),2.78,1.90,1.31,0.90,0.68,0.52,0.44);(t3(s),2.78,1.90,1.31,0.90,0.68,0.52,0.44);(t4(s),2.78,1.90,1.31,0.90,0.68,0.52,0.44);(t5(s),2.78,1.90,1.31,0.90,0.68,0.52,0.44);(平均值tp(s),2.78,1.90,1.31,0.90,0.68,0.52,0.44);(速度(m/s),0.011,0.016,0.023,0.033,0.044,0.057,0.067);(η(Pa*s)测量值,0.634,0.431,0.294,0.198,0.144,0.104,0.083)</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>84</TotalScore>
+              <RealScore>84</RealScore>
+              <Para>
+                <Sn>0</Sn>
+                <Name>INDEX</Name>
+                <Script>温度(℃);t1(s);t2(s);t3(s);t4(s);t5(s);平均值tp(s);速度(m/s);η(Pa*s)测量值</Script>
+                <VarType>int</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>25</Name>
+                <Script>25</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.5</Min>
+                      <Max>0.5</Max>
+                    </Range>
+                    <Score>1.5</Score>
+                    <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>30</Name>
+                <Script>30</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.5</Min>
+                      <Max>0.5</Max>
+                    </Range>
+                    <Score>1.5</Score>
+                    <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>35</Name>
+                <Script>35</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.5</Min>
+                      <Max>0.5</Max>
+                    </Range>
+                    <Score>1.5</Score>
+                    <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>40</Name>
+                <Script>40</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.5</Min>
+                      <Max>0.5</Max>
+                    </Range>
+                    <Score>1.5</Score>
+                    <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>45</Name>
+                <Script>45</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.5</Min>
+                      <Max>0.5</Max>
+                    </Range>
+                    <Score>1.5</Score>
+                    <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>50</Name>
+                <Script>50</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.5</Min>
+                      <Max>0.5</Max>
+                    </Range>
+                    <Score>1.5</Score>
+                    <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>55</Name>
+                <Script>55</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.5</Min>
+                      <Max>0.5</Max>
+                    </Range>
+                    <Score>1.5</Score>
+                    <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+            </Para>
+          </Group>
+          <RealScore>87.5</RealScore>
+        </TestTarget>
+        <!--计算粘度相对误差   8'-->
+        <TestTarget>
+          <Script>计算粘度相对误差</Script>
+          <Group>
+            <!--计算粘度相对误差  8'-->
+            <Para StudentVisible="True">
+              <sn>11</sn>
+              <Name>NDWCList</Name>
+              <VarType Count="2">TList</VarType>
+              <Script>已知部分温度下对应的粘度标准值，可将这些温度下粘度的测量值与标准值比较，并计算相对误差：</Script>
+              <RealResult>(温度-粘度标准值*η,粘度测量值η(Pa*s),相对误差（%）);(30℃--0.451(Pa*s),0.431,4.435);(40℃--0.231(Pa*s),0.198,14.286)</RealResult>
+              <StdResult>(温度-粘度标准值*η,粘度测量值η(Pa*s),相对误差（%）);(30℃--0.451(Pa*s),0.431,4.402);(40℃--0.231(Pa*s),0.198,14.472)</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>8</TotalScore>
+              <RealScore>8</RealScore>
+              <Para>
+                <Sn>0</Sn>
+                <Name>INDEX</Name>
+                <Script>温度-粘度标准值*η;30℃--0.451(Pa*s);40℃--0.231(Pa*s)</Script>
+                <VarType>int</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>NDValue</Name>
+                <Script>粘度测量值η(Pa*s)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.5</Min>
+                      <Max>0.5</Max>
+                    </Range>
+                    <Score>2</Score>
+                    <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>XDWC</Name>
+                <Script>相对误差（%）</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.30</Min>
+                      <Max>0.30</Max>
+                    </Range>
+                    <Score>2</Score>
+                    <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+            </Para>
+          </Group>
+          <RealScore>8</RealScore>
+        </TestTarget>
+      </CheckPoint>
+    </Question>
+  </Content>
+</ExamPaper>
