@@ -1,0 +1,46 @@
+<Exampaper>(h=0) 根目录  
+    <Content>(h=1) 实验总内容  
+        <Question>(h=2)实验子项目（多数实验仅有一个） 
+            <Sn>(h=3)题目编号1(第X个子项目编号为X)
+            <Name>(h=3)该项目名称 
+            <Score>(h=3)该项目总分数 
+                <Total>(h=4)该项目总满分
+                <RealScore>(h=4)该项目实际总分
+            <CheckPoint>(h=3)包含各项数据主体，与字面意义不符
+                <Script>(h=4)界面文字的样式，无需修改
+                <!--1.连线 30分-->(h=4)每个大块前的注释，说明大块的名称和分值
+                <TestTarget>(h=4)可有多个，界面中黄底的一大块，称其为大块 
+                    <Script>(h=5)界面文字的样式
+                    <Group>(h=5)一个TestTarget有唯一的Group，称其为得分组
+                        <Para StudentVisible="">(h=6)一个Group可有多个Para(得分点)，不可见的一般为操作得分点，可见的为数据得分点
+                            <Script>(h=7)显示的得分点标题
+                            <Vartype>(h=7)数据类型
+                                //表格型额外有Count属性，表示每行要填写的项数，算总分有用
+                            <RealResult>(h=7)实际数据
+                                //实际数据要分成填空和表格两种类型，格式不同，仅复制则无需考虑
+                                //如(温度(℃),25,30,35);(t1(s),*,*,*);
+                                //一个括号表示一列
+                            <StdResult>(h=7)标答数据
+                            <TotalScore>(h=7)该得分点满分
+                            <RealScore>(h=7)该得分点实际得分
+                            <JudgeRule>(h=7)下有一或多个Rule根据精确程度给不同分值
+                                //若当前Para是表格，则无JudgeRule
+                                //JudgeRule仅存在于单层填空Para与表格Para的第二层中
+                                <Rule>(h=8)一条Rule对应一种得分情况
+                                    <Score>(h=9)该Rule下该得分点的分数
+                                        //出现在单层Para，为填空，Score=TotalScore
+                            //如果Para下没有Para，为填空，否则为表格
+                            <Para>(h=7)第二层的Para数量即为表格行数(含表头)
+                                <Script>(h=8)为该行的固定项，分号表示多个
+                                <RealResult>未知</RealResult>
+                                <StdResult>未知</StdResult>
+                                //第二层的Para没有<RealScore>和<TotalScore>了
+                                <JudgeRule>(h=8)下有一或多个Rule根据精确程度给不同的分值
+                                    <Rule>(h=9)一条Rule对应一种得分情况
+                                        <Score>(h=10)该Rule下该得分点的分数
+                                            //出现在第二层Para，Scroe*(每行项数*每列项数)=TotalScore
+                                        
+                        </Para>(h=6)...可能有多个
+                    </Group>(h=5)唯一的Group结束
+                    <RealScore>(h=5)大块的实际得分，要等于各Para分之和
+                </TestTarget>(h=4)...一般有多个
