@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExamPaper>
+  <Title>
+    <Name>干涉法测微实验</Name>
+    <Id>SIMEXP_GSFCW_ZGKXJSDX_001</Id>
+    <User>
+      <Id>使用者ＩＤ</Id>
+      <Name>使用者姓名</Name>
+      <Time>
+        <MaxTime>考试时间限制</MaxTime>
+        <RealTime>632</RealTime>
+      </Time>
+    </User>
+    <FinalResult>true</FinalResult>
+  </Title>
+  <Content>
+    <!-- 利用干涉法测量牛顿环的曲率半径-->
+    <Question Type="OP">
+      <Sn>题目编号1</Sn>
+      <Name>牛顿环法测曲率半径</Name>
+      <Id>SIMEXP_GSFCW_ZGKXJSDX_001</Id>
+      <Type>实验内容</Type>
+      <Score>
+        <Total>29</Total>
+        <RealScore>29</RealScore>
+      </Score>
+      <Script>
+        <DOC>
+          <!-- 文字说明-->
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="牛顿环公式适用" TextDecorations="" />
+            <Inline Type="Image" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" TextDecorations="" ImageWidth="83" ImageHeight="45.0389633178711" ImageMargin="0,0,0,0" ImageSource="ImageData:0" />
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="实验室提供的显微镜，钠光灯(波长:589nm)、牛顿环。请测量牛顿环的曲率半径R。" TextDecorations="" />
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="将测量实验数据填入表格内。" TextDecorations="" />
+          </Paragraph>
+          <!--文字说明中使用到的图片 公式图片-->
+          <ImageCollection>
+            <ImageData Key="0"><![CDATA[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]]></ImageData>
+          </ImageCollection>
+        </DOC>
+      </Script>
+      <InitialStatus>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text=" 计算机随机产生 牛顿环曲率半径(R)。" TextDecorations="" />
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="仪器的初始状态：显微镜和钠光灯放在实验桌上，不允许拖动，也不允许删除。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+        <ConfigFile>SIMQUEST_GSFCWKS_LYDBCLZLJSD_ZGKXJSDX_V001.xml</ConfigFile>
+      </InitialStatus>
+      <!-- 考察关键点-->
+      <KeyPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="按照设计要求，正确利用显微镜、钠光灯、牛顿环测量牛顿环曲率半径。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="1、观察牛顿环" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(1)、将牛顿环放入到载物台并打开钠光灯。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(2)、使显微镜镜筒下降到最低位置，然后缓慢上升，直到观察到干涉条纹，再调节反光镜的角度及显微镜，使条纹更清晰。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="2、测量牛顿环曲率半径" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(1)、使显微镜的十字叉丝交点与牛顿环中心重合，并使其与显微镜镜筒移动方向平行。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(2)、转动显微镜测微鼓轮，使显微镜镜筒沿一个方向移动，同时数出十字叉丝竖丝移动的暗环数，知道竖丝与第45环相切为止。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(3)、反向转动鼓轮，当竖丝与第40环相切时，记录读数显微镜上的位置读数，然后继续转动鼓轮，使竖丝依次与第35、30、25、20、15、10、5环相切，顺次记下读数。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(4)、继续转动鼓轮,越过干涉圆环中心，记下竖丝依次与另一边的5、10、15、20、25、30、35、40环相切时的读数。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="3、计算B类不确定度，n即为20" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(1)、由测量的结果计算第5环到第25环的直径，这样一次每隔20环求一次。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(2)、计算B类不确定度时，直径差为上述四次计算结果的平均值。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+      </KeyPoint>
+      <!-- 考察点概述-->
+      <CheckPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="调节仪器参数，测量牛顿环的曲率半径" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+        <!--考题 -->
+        <TestTarget>
+          <Script>调整并确定牛顿环在显微镜载物台的位置，然后开始测量实验数据。注意在以后的数据测量过程中，请勿再次调整牛顿环在载物台的位置。</Script>
+          <Group>
+            <!-- 显微镜叉丝角度调节是否正确-->
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>ChaSi_Angel</Name>
+              <VarType>bool</VarType>
+              <Script>显微镜叉丝角度调节是否正确</Script>
+              <RealResult>true</RealResult>
+              <StdResult>true</StdResult>
+              <StdSource>DataBase</StdSource>
+              <StdResultShowInfo>叉丝同镜筒移动方向应平行</StdResultShowInfo>
+              <TotalScore>10</TotalScore>
+              <RealScore>10</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <RuleShowInfo>叉丝同镜筒移动方向平行</RuleShowInfo>
+                  <Score>10</Score>
+                </RightRule>
+                <WrongRule>
+                  <RuleShowInfo>叉丝同镜筒移动方向不平行</RuleShowInfo>
+                  <Score>0</Score>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>叉丝同镜筒移动方向平行</StudentResultShowInfo>
+            </Para>
+            <!-- 显微镜使用是否正确-->
+            <Para StudentVisible="false">
+              <Sn>2</Sn>
+              <Name>IsOperateSuccess</Name>
+              <VarType>bool</VarType>
+              <Script>显微镜的使用是否正确</Script>
+              <RealResult>true</RealResult>
+              <StdResult>true</StdResult>
+              <StdSource>DataBase</StdSource>
+              <!-- 标准答案。-->
+              <StdResultShowInfo>使用显微镜时，首先应将物镜降至最低位置，然后进行细调。</StdResultShowInfo>
+              <TotalScore>3</TotalScore>
+              <RealScore>3</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <RuleShowInfo>操作正确</RuleShowInfo>
+                  <Score>3</Score>
+                </RightRule>
+                <WrongRule>
+                  <RuleShowInfo>操作不正确</RuleShowInfo>
+                  <Score>0</Score>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>操作正确</StudentResultShowInfo>
+            </Para>
+            <!-- 出现干涉图像的清晰度-->
+            <Para StudentVisible="false">
+              <Sn>3</Sn>
+              <Name>Image_Focus</Name>
+              <VarType>bool</VarType>
+              <Script>出现干涉图像的清晰度</Script>
+              <RealResult>true</RealResult>
+              <StdResult>true</StdResult>
+              <StdSource>DataBase</StdSource>
+              <StdResultShowInfo>清晰</StdResultShowInfo>
+              <TotalScore>6</TotalScore>
+              <RealScore>6</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <RuleShowInfo>清晰</RuleShowInfo>
+                  <Score>6</Score>
+                </RightRule>
+                <WrongRule>
+                  <RuleShowInfo>模糊</RuleShowInfo>
+                  <Score>0</Score>
+                </WrongRule>
+                <!-- 
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.01</Min>
+                      <Max>0.01</Max>
+                    </Range>  
+                  <Score>10</Score>
+                  <AnswerShowInfo>清晰</AnswerShowInfo>
+                  <RuleShowInfo>清晰</RuleShowInfo>  
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-1.50</Min>
+                    <Max>1.50</Max>
+                  </Range> 
+                  <Score>6</Score>
+                  <AnswerShowInfo>稍微模糊</AnswerShowInfo>
+                  <RuleShowInfo>稍微模糊</RuleShowInfo> 
+                </Rule>
+                <Rule>
+                  <Range>
+                    <StdValue>1</StdValue>
+                    <Type>百分比</Type>
+                    <Min>-2.50</Min> 
+                    <Max>2.50</Max>
+                  </Range> 
+                  <Score>0</Score>
+                  <AnswerShowInfo>十分模糊</AnswerShowInfo>
+                  <RuleShowInfo>十分模糊</RuleShowInfo> 
+                </Rule>
+                -->
+              </JudgeRule>
+              <StudentResultShowInfo>清晰</StudentResultShowInfo>
+            </Para>
+            <!-- 实验表格-->
+            <Para StudentVisible="True">
+              <sn>4</sn>
+              <Name>NDHLengthList</Name>
+              <VarType Count="8">TList</VarType>
+              <Script>实验数据表格</Script>
+              <RealResult>(环数,左(读数mm),右(读数mm));(第5环,53.903,57.365);(第10环,52.960,58.335);(第15环,52.335,58.953);(第20环,51.847,59.471);(第25环,51.390,59.900);(第30环,50.980,60.318);(第35环,50.600,60.689);(第40环,50.260,61.044)</RealResult>
+              <StdResult>(环数,左(读数mm),右(读数mm));(第5环,53.903,57.365);(第10环,52.960,58.335);(第15环,52.335,58.953);(第20环,51.847,59.471);(第25环,51.390,59.900);(第30环,50.980,60.318);(第35环,50.600,60.689);(第40环,50.260,61.044)</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+              <Para>
+                <Sn>5</Sn>
+                <Name>INDEX</Name>
+                <Script>环数;第5环;第10环;第15环;第20环;第25环;第30环;第35环;第40环</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <Sn>6</Sn>
+                <Name>value_left</Name>
+                <Script>左(读数mm)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <Sn>7</Sn>
+                <Name>value_right</Name>
+                <Script>右(读数mm)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+            </Para>
+          </Group>
+          <RealScore>19</RealScore>
+        </TestTarget>
+        <TestTarget>
+          <Script>根据以上测量的值来计算得出如下数据:</Script>
+          <Group>
+            <!-- 计算出的牛顿环的曲率半径-->
+            <Para StudentVisible="True">
+              <Sn>8</Sn>
+              <Name>CurvatureR</Name>
+              <Script>牛顿环的曲率半径值R(m)</Script>
+              <VarType>double</VarType>
+              <RealResult>1.231</RealResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdResult>1.2000</StdResult>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>10</RealScore>
+              <JudgeRule>
+                <!-- 误差5%内10分-->
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.05</Min>
+                    <Max>0.05</Max>
+                  </Range>
+                  <AnswerShowInfo>原值</AnswerShowInfo>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  <Score>10</Score>
+                </Rule>
+                <!-- 误差10%内6分-->
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.1</Min>
+                    <Max>0.1</Max>
+                  </Range>
+                  <AnswerShowInfo>原值</AnswerShowInfo>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  <Score>6</Score>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>10</RealScore>
+        </TestTarget>
+      </CheckPoint>
+    </Question>
+    <!-- 利用干涉法测量细丝的直径-->
+    <Question Type="OP">
+      <Sn>题目编号2</Sn>
+      <Name>用劈尖测细丝直径</Name>
+      <Id>SIMEXP_GSFCW_ZGKXJSDX_002</Id>
+      <Type>实验内容</Type>
+      <Score>
+        <Total>29</Total>
+        <RealScore>29</RealScore>
+      </Score>
+      <Script>
+        <DOC>
+          <!-- 文字说明-->
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="干涉法测微小量公式适用" TextDecorations="" />
+            <Inline Type="Image" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" TextDecorations="" ImageWidth="83" ImageHeight="45.0389633178711" ImageMargin="0,0,0,0" ImageSource="ImageData:0" />
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="实验室提供的显微镜，钠光灯(波长:589nm)、劈尖(长度为0.04m)。请测量劈尖中的细丝直径。" TextDecorations="" />
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="将测量实验数据填入表格内。" TextDecorations="" />
+          </Paragraph>
+          <!--文字说明中使用到的图片 公式图片-->
+          <ImageCollection>
+            <ImageData Key="0"><![CDATA[/9j/4AAQSkZJRgABAAAAAQABAAD//gAgSnBlZyBDb2RlYyB8IGZsdXhjYXBhY2l0eS5uZXQg/9sAhAAUDg8SDwwUEhASFhUUGB4yIB4cHB49LC4kMkhATEtHQEZFUFpzYlBVbVZFRmSIZW13eoGCgU5gjZeMfZZzfoF8ARUWFh4aHjsgIDt8UkZSfHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHx8fHz/wAARCAAsAEQDAREAAhEBAxEB/8QBogAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoLEAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYTUWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T19vf4+foBAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKCxEAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDs6ACgBksiQxl5DhR7ZP4DufagCCK/tpYJJllwkWfM3qVKY9QeRR0Afb3UV0rGFm+U4ZWUqy/UHBFAE1AEU9zFb7fNYjccDClvxOOg9+lAEtAGN4h/5d/+Bf0oA2qACgCOZ444mkmKqiDcWboPekBgzTW9zb3FzBPHIZJoXlVHB2Rqw+9jpwCf/wBVNKzVxGjAS2vXRX7iwxq2P72WP8iPzoQ30NCgDNvZ3uLgW9u21I5EE749SPkHuRyfQfWhbgaKsGUFSCD3FAGP4h/5d/8AgX9KAJL23gvtbtYZoY5BBG0rblB68KP5n8KF1B7GlLLHBGXlkWNBgbmOBQBWvrjTgPI1CW0AYBvLnZeR64NICCC70O2Vlt7jTolf7wR0UH64p7gT2NxpxHkafLakKN3lwMvA9cCgCwLiExySCaMpHkO24YXHXJ7YoAom90VoGga508wsclDIm0nOen15oAvQSQywK9u8bxEYVoyCvHHGKAMrxD/y7/8AAv6UAWf7LYXU06ahdo8uA2BGeBnAGU6DJoAuQRCCBIlLEIAMsck+596BElAyGC6iuHmWJwxhfY/scZ/rR0uA22uhcSToI5EML7CWxgnGeME9iKOlw6ligCnc6ils/wC8imMQYK0wA2IT6859OQCOaEDLlAGN4h/5d/8AgX9KANqgAoArX10lpaNK7onRQzkAAk4GaQGRFe2NprEJtryCWK4j8uQLKGIdeVY4PcZH5UdwNHR2EmnJMCCZiZCR6k5/Tp+FO1tBbu5eoGYmraxpyTixubgDkNIFUt0OQvA6n+VC1YPY2gcgHBHsaBIx/EP/AC7/APAv6UDD+3/+nb/yJ/8AWoAP7f8A+nb/AMif/WoAP7e/6dv/ACJ/9agA/t7/AKdv/In/ANagA/t7/p2/8if/AFqAD+3/APp2/wDIn/1qAD+3v+nb/wAif/WoAP7e/wCnb/yJ/wDWoAp6jf8A27y/3WzZn+LOc49vagD/2Q==]]></ImageData>
+          </ImageCollection>
+        </DOC>
+      </Script>
+      <InitialStatus>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="计算机随机产生 细丝直径(D)。" TextDecorations="" />
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="仪器的初始状态：显微镜和钠光灯放在实验桌上，不允许拖动，也不允许删除。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+        <ConfigFile>SIMQUEST_GSFCWKS_LYDBCLZLJSD_ZGKXJSDX_V002.xml</ConfigFile>
+      </InitialStatus>
+      <KeyPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="按照设计要求，正确利用显微镜、钠光灯、劈尖测量劈尖中细丝的直径。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="1、观察干涉条纹" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(1)、将劈尖盒放入到载物台并打开钠光灯。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(2)、使显微镜镜筒下降到最低位置，然后缓慢上升，直到观察到干涉条纹，再调节反光镜的角度及显微镜，使条纹更清晰。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="2、测量" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(1)、使显微镜的十字叉丝交点与牛顿环中心重合，并使其与显微镜镜筒移动方向平行。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(2)、在劈尖玻璃面的三个不同部分，测出20条暗纹的总长度，测3个求平均值。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(3)、按公式求细丝直径。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="3、计算B类不确定度，n即为20" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+      </KeyPoint>
+      <CheckPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="调节仪器参数，测量劈尖中细丝的直径" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+        <TestTarget>
+          <Script>调整并确定劈尖在显微镜载物台的位置，然后开始测量实验数据。注意在以后的数据测量过程中，请勿再次调整劈尖在载物台的位置。</Script>
+          <Group>
+            <!-- 显微镜叉丝角度调节是否正确-->
+            <Para StudentVisible="false">
+              <Sn>20</Sn>
+              <Name>ChaSi_Angel</Name>
+              <VarType>bool</VarType>
+              <Script>显微镜叉丝角度调节是否正确</Script>
+              <RealResult>true</RealResult>
+              <StdResult>true</StdResult>
+              <StdSource>DataBase</StdSource>
+              <StdResultShowInfo>叉丝同镜筒移动方向应平行</StdResultShowInfo>
+              <TotalScore>10</TotalScore>
+              <RealScore>10</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <RuleShowInfo>叉丝同镜筒移动方向平行</RuleShowInfo>
+                  <Score>10</Score>
+                </RightRule>
+                <WrongRule>
+                  <RuleShowInfo>叉丝同镜筒移动方向不平行</RuleShowInfo>
+                  <Score>0</Score>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>叉丝同镜筒移动方向平行</StudentResultShowInfo>
+            </Para>
+            <!-- 显微镜使用是否正确-->
+            <Para StudentVisible="false">
+              <Sn>21</Sn>
+              <Name>IsOperateSuccess</Name>
+              <VarType>bool</VarType>
+              <Script>显微镜的使用是否正确</Script>
+              <RealResult>true</RealResult>
+              <StdResult>true</StdResult>
+              <StdSource>DataBase</StdSource>
+              <!-- 标准答案。-->
+              <StdResultShowInfo>使用显微镜时，首先应将物镜降至最低位置，然后进行细调。</StdResultShowInfo>
+              <TotalScore>3</TotalScore>
+              <RealScore>3</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <RuleShowInfo>操作正确</RuleShowInfo>
+                  <Score>3</Score>
+                </RightRule>
+                <WrongRule>
+                  <RuleShowInfo>操作不正确</RuleShowInfo>
+                  <Score>0</Score>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>操作正确</StudentResultShowInfo>
+            </Para>
+            <!-- 出现干涉图像的清晰度-->
+            <Para StudentVisible="false">
+              <Sn>22</Sn>
+              <Name>Image_Focus</Name>
+              <VarType>bool</VarType>
+              <Script>出现干涉图像的清晰度</Script>
+              <RealResult>true</RealResult>
+              <StdResult>true</StdResult>
+              <StdResultShowInfo>清晰</StdResultShowInfo>
+              <TotalScore>6</TotalScore>
+              <RealScore>6</RealScore>
+              <StdSource>Database</StdSource>
+              <JudgeRule>
+                <RightRule>
+                  <RuleShowInfo>清晰</RuleShowInfo>
+                  <Score>6</Score>
+                </RightRule>
+                <WrongRule>
+                  <RuleShowInfo>模糊</RuleShowInfo>
+                  <Score>0</Score>
+                </WrongRule>
+                <!-- 
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.01</Min>
+                    <Max>0.01</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <AnswerShowInfo>清晰</AnswerShowInfo>
+                  <RuleShowInfo>清晰</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-1.50</Min>
+                    <Max>1.50</Max>
+                  </Range>
+                  <Score>6</Score>
+                  <AnswerShowInfo>稍微模糊</AnswerShowInfo>
+                  <RuleShowInfo>稍微模糊</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <Range>
+                    <StdValue>1</StdValue>
+                    <Type>百分比</Type>
+                    <Min>-2.50</Min>
+                    <Max>2.50</Max>
+                  </Range>
+                  <Score>0</Score>
+                  <AnswerShowInfo>十分模糊</AnswerShowInfo>
+                  <RuleShowInfo>十分模糊</RuleShowInfo>
+                </Rule>
+                 -->
+              </JudgeRule>
+              <StudentResultShowInfo>清晰</StudentResultShowInfo>
+            </Para>
+            <!-- 实验表格-->
+            <Para StudentVisible="True">
+              <sn>23</sn>
+              <Name>JPLengthList</Name>
+              <VarType Count="3">TList</VarType>
+              <Script>实验数据表格</Script>
+              <RealResult>(序号,20条暗条纹的宽度(mm));(1,1.165);(2,1.220);(3,1.200)</RealResult>
+              <StdResult>(序号,20条暗条纹的宽度(mm));(1,1.165);(2,1.220);(3,1.200)</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+              <Para>
+                <Sn>24</Sn>
+                <Name>INDEX</Name>
+                <Script>序号</Script>
+                <VarType>int</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <Sn>25</Sn>
+                <Name>Width</Name>
+                <Script>20条暗条纹的宽度(mm)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+            </Para>
+          </Group>
+          <RealScore>19</RealScore>
+        </TestTarget>
+        <TestTarget>
+          <Script>根据以上测量的值来计算得出以下值:</Script>
+          <Group>
+            <!-- 计算出的牛顿环的曲率半径-->
+            <Para StudentVisible="True">
+              <Sn>26</Sn>
+              <Name>JPDiameter</Name>
+              <Script>计算劈尖中细丝的直径值D(m)</Script>
+              <VarType>double</VarType>
+              <RealResult>0.0002</RealResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdResult>0.00020</StdResult>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>10</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.1</Min>
+                    <Max>0.1</Max>
+                  </Range>
+                  <AnswerShowInfo>原值</AnswerShowInfo>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  <Score>10</Score>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.15</Min>
+                    <Max>0.15</Max>
+                  </Range>
+                  <AnswerShowInfo>原值</AnswerShowInfo>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  <Score>6</Score>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>10</RealScore>
+        </TestTarget>
+      </CheckPoint>
+    </Question>
+  </Content>
+</ExamPaper>

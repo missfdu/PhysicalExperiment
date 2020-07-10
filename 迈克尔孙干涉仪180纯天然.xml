@@ -1,0 +1,1138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExamPaper>
+  <Title>
+    <Name>迈克尔逊干涉仪实验</Name>
+    <Id>SIMEXAM_MKEXGSYSY_ZGKXJSDX_V001</Id>
+    <Writer>
+      <Id>009</Id>
+      <Name>HeHongbo</Name>
+    </Writer>
+    <User>
+      <Id>使用者ID</Id>
+      <Name>使用者姓名</Name>
+      <Time>
+        <MaxTime>7200</MaxTime>
+        <RealTime>694</RealTime>
+      </Time>
+    </User>
+    <FinalResult>true</FinalResult>
+  </Title>
+  <Content>
+    <Question Type="OP">
+      <Sn>00</Sn>
+      <Name>使用迈克尔逊干涉仪测量钠光的波长及双线波长差</Name>
+      <Id>SIMQUEST_MKEXGSYSY_CLHNJGBCHNGBC_ZGKXJSDX_V001</Id>
+      <Type>实验内容</Type>
+      <Score>
+        <RealScore>65</RealScore>
+        <Total>65</Total>
+      </Score>
+      <Script>
+        <DOC>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="12" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="12" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="实验室提供He-Ne激光器，钠光源，小孔光阑，短焦透镜，迈克尔逊干涉仪，请使用这些仪器测量钠光的波长及钠黄光双线的波长差。" TextDecorations="" />
+          </Paragraph>
+        </DOC>
+      </Script>
+      <InitialStatus>
+        <Script></Script>
+        <ConfigFile>SIMQUEST_MKEXGSYSY_KST1_ZGKXJSDX_V001.xml</ConfigFile>
+      </InitialStatus>
+      <KeyPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="M2上的三个螺钉的调节是显示屏的两排光点重合。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="观察干涉条纹的吞吐测出钠光的波长。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="观察干涉条纹的周期变化，测出钠黄光双线的波长差。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+      </KeyPoint>
+      <CheckPoint>
+        <Script></Script>
+        <!--光路调节  27分-->
+        <TestTarget>
+          <Script>光路调节</Script>
+          <Group>
+            <!--放置He-Ne激光器，并打开激光器电源开关。 IsHeNejgqOnCheck 5分-->
+            <Para StudentVisible="False">
+              <Sn>100</Sn>
+              <Name>IsHeNejgqOnCheck_Na</Name>
+              <Script>放置He-Ne激光器，并打开激光器电源开关。</Script>
+              <VarType>bool</VarType>
+              <RealResult>True</RealResult>
+              <StdResult>True</StdResult>
+              <StdSource>DataBase</StdSource>
+              <StdResultShowInfo>操作正确</StdResultShowInfo>
+              <TotalScore>5</TotalScore>
+              <RealScore>5</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>5</Score>
+                  <RuleShowInfo>操作正确</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>LostWholeQuestion</Score>
+                  <RuleShowInfo>操作错误</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>操作正确</StudentResultShowInfo>
+            </Para>
+            <!--放置小孔光阑，调节M2镜上的三个螺钉, 使光点重合。GDCHCheck  12分-->
+            <Para StudentVisible="False">
+              <Name>GDCHCheck_Na</Name>
+              <Script>放置小孔光阑，调节M2镜上的三个螺钉, 使光点重合。</Script>
+              <VarType>bool</VarType>
+              <RealResult>True</RealResult>
+              <StdResult>True</StdResult>
+              <StdResultShowInfo>光点重合</StdResultShowInfo>
+              <StdSource>DataBase</StdSource>
+              <TotalScore>12</TotalScore>
+              <RealScore>12</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>12</Score>
+                  <RuleShowInfo>光点重合</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>光点没有重合</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>光点重合</StudentResultShowInfo>
+            </Para>
+            <!--移除小孔光阑，放置短焦透镜， 出现明亮的干涉条纹，小心的调节M2上的旋钮，使圆心位于毛玻璃中间。-->
+            <!--HeNeGSTWCheck   10分-->
+            <Para StudentVisible="False">
+              <Name>HeNeGSTWCheck_Na</Name>
+              <Script>移除小孔光阑，放置短焦透镜， 出现明亮的干涉条纹，小心的调节M2上的旋钮，使圆心位于毛玻璃中间。</Script>
+              <VarType>bool</VarType>
+              <RealResult>True</RealResult>
+              <StdResult>True</StdResult>
+              <StdSource>DataBase</StdSource>
+              <StdResultShowInfo>圆心位于毛玻璃中心</StdResultShowInfo>
+              <TotalScore>10</TotalScore>
+              <RealScore>10</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>10</Score>
+                  <RuleShowInfo>圆心位于毛玻璃中心</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>圆心没有位于毛玻璃中心</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>圆心位于毛玻璃中心</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>27</RealScore>
+        </TestTarget>
+        <!--读数检查   DSGS   3分-->
+        <TestTarget>
+          <Script>读数检查</Script>
+          <Group>
+            <Para StudentVisible="False">
+              <Sn>28</Sn>
+              <Name>DSGS_Na</Name>
+              <Script>迈克尔逊干涉仪读数格式检查（以毫米为单位，保留小数点后5位）</Script>
+              <VarType>bool</VarType>
+              <RealResult>True</RealResult>
+              <StdResult>True</StdResult>
+              <StdResultShowInfo>格式正确</StdResultShowInfo>
+              <StdSource>DataBase</StdSource>
+              <TotalScore>3</TotalScore>
+              <RealScore>3</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <RuleShowInfo>格式正确</RuleShowInfo>
+                  <Score>3</Score>
+                </RightRule>
+                <WrongRule>
+                  <RuleShowInfo>格式错误</RuleShowInfo>
+                  <Score>0</Score>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>格式正确</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>3</RealScore>
+        </TestTarget>
+        <!--换钠光光源，调节鼓轮，观察到条纹的吞吐状况，中心每“生成”或“吞进”30个干涉条纹记录一次数据，连续记录6次。-->
+        <!--25分-->
+        <TestTarget>
+          <Script>换钠光光源，调节鼓轮，观察到条纹的吞吐状况，中心每“生成”或“吞进”30个干涉条纹记录一次数据，连续记录6次。</Script>
+          <Group>
+            <!--选择M1镜的一个初始位置，作为第一列填入表格，然后将中心每“生出”或“吞进”30个条纹时M1镜的位置填入表格其他列中。-->
+            <Para StudentVisible="True">
+              <Sn>00</Sn>
+              <Name>M1PosList_Na</Name>
+              <Script>选择M1镜的一个初始位置，作为第一列填入表格，然后将中心每“生出”或“吞进”30个条纹时M1镜的位置填入表格其他列中。	</Script>
+              <VarType Count="6">TList</VarType>
+              <RealResult>(测量编号,D(mm));(1,30.73000);(2,30.73885);(3,30.74765);(4,30.75650);(5,30.76530);(6,30.77410)</RealResult>
+              <StdResult>(测量编号,D(mm));(1,30.73000);(2,30.73885);(3,30.74765);(4,30.75650);(5,30.76530);(6,30.77410)</StdResult>
+              <StdSource>Exp</StdSource>
+              <TotalScore>0</TotalScore>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <RealScore>0</RealScore>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>INDEX</Name>
+                <Script>测量编号</Script>
+                <VarType Count="1">double</VarType>
+                <StdSource>DataBase</StdSource>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>M1Pos</Name>
+                <Script>D(mm)</Script>
+                <VarType Count="1">double</VarType>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <JudgeRule />
+            </Para>
+            <!--利用逐差法，根据上面的数据算出三组差值，并填入下表  15分-->
+            <Para StudentVisible="True">
+              <Sn>00</Sn>
+              <Name>FDYGS_XXMS_Na</Name>
+              <Script>利用逐差法，根据上面的数据算出三组差值，并填入下表</Script>
+              <VarType Count="3">TList</VarType>
+              <RealResult>(测量编号,ΔD(mm));(1,0.02650);(2,0.02645);(3,0.02645)</RealResult>
+              <StdResult>(测量编号,ΔD(mm));(1,0.02652);(2,0.02652);(3,0.02652)</StdResult>
+              <StdSource>Exp</StdSource>
+              <TotalScore>15</TotalScore>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <RealScore>15</RealScore>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>INDEX</Name>
+                <Script>测量编号</Script>
+                <VarType Count="1">double</VarType>&gt;
+                <StdSource>DataBase</StdSource></Para>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>DeltaH_30_Na_3</Name>
+                <Script>ΔD(mm)</Script>
+                <VarType Count="1">double</VarType>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.1</Min>
+                      <Max>0.1</Max>
+                    </Range>
+                    <Score>5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+            </Para>
+            <!--用逐差法处理数据，根据相应公式计算钠光的波长λ（nm）   10分-->
+            <!--Nanbda_Na-->
+            <Para StudentVisible="True">
+              <Sn>00</Sn>
+              <Name>Nanbda_Na</Name>
+              <Script>用逐差法处理数据，根据相应公式计算钠光的波长λ（nm）=</Script>
+              <VarType>Double</VarType>
+              <RealResult>586.63</RealResult>
+              <StdResult>589.30</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>10</TotalScore>
+              <RealScore>10</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.05</Min>
+                    <Max>0.05</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <!--<AnswerShowInfo>原值</AnswerShowInfo>-->
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.1</Min>
+                    <Max>0.1</Max>
+                  </Range>
+                  <Score>9</Score>
+                  <!--<AnswerShowInfo>原值</AnswerShowInfo>-->
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.5</Min>
+                    <Max>0.5</Max>
+                  </Range>
+                  <Score>6</Score>
+                  <!--<AnswerShowInfo>原值</AnswerShowInfo>-->
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>25</RealScore>
+        </TestTarget>
+        <!--再移动M1，观察到条纹的可见度周期变化，记录条纹从不可见到次不可见时M1的位置读数，连续记录4次。-->
+        <!--10分-->
+        <TestTarget>
+          <Script>再移动M1，观察到条纹的可见度周期变化，记录条纹从不可见到次不可见时M1的位置读数，连续记录4次。</Script>
+          <Name>M1PosList</Name>
+          <Group>
+            <!--选择M1镜的一个条纹不可见位置，作为第一列填入表格，然后将条纹从不可见到次不可见时M1的位置读数填入表格其他列中。-->
+            <Para StudentVisible="True">
+              <Sn>00</Sn>
+              <Name>M1PosList</Name>
+              <Script>选择M1镜的一个条纹不可见位置，作为第一列填入表格，然后将条纹从不可见到次不可见时M1的位置读数填入表格其他列中。</Script>
+              <VarType Count="4">TList</VarType>
+              <RealResult>(测量编号,D(mm));(1,30.82410);(2,31.11410);(3,31.40410);(4,31.69410)</RealResult>
+              <StdResult>(测量编号,D(mm));(1,30.82410);(2,31.11410);(3,31.40410);(4,31.69410)</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>INDEX</Name>
+                <Script>测量编号</Script>
+                <VarType Count="1">double</VarType>
+                <StdSource>DataBase</StdSource>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>M1Pos</Name>
+                <Script>D(mm)</Script>
+                <VarType Count="1">double</VarType>
+                <StdSource>Exp</StdSource>&gt;
+              </Para>
+              <JudgeRule />
+            </Para>
+            <!--利用逐差法，根据上面的数据算出两组差值，并填入下表  6分-->
+            <Para StudentVisible="True">
+              <Sn>00</Sn>
+              <Name>FDYGS_XXMS</Name>
+              <Script>利用逐差法，根据上面的数据算出两组差值，并填入下表</Script>
+              <VarType Count="2">TList</VarType>
+              <RealResult>(测量编号,ΔD(mm));(1,0.58);(2,0.58)</RealResult>
+              <StdResult>(测量编号,ΔD(mm));(1,0.57879);(2,0.57879)</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>6</TotalScore>
+              <RealScore>6</RealScore>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>INDEX</Name>
+                <Script>测量编号</Script>
+                <VarType Count="1">double</VarType>
+                <StdSource>DataBase</StdSource>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>DeltaH_KJD_Na_2</Name>
+                <Script>ΔD(mm)</Script>
+                <VarType Count="1">double</VarType>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.1</Min>
+                      <Max>0.1</Max>
+                    </Range>
+                    <Score>3</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+            </Para>
+            <!--用逐差法处理数据，根据相应公式计算钠光双线的波长差 d（nm）   4分-->
+            <Para StudentVisible="True">
+              <Sn>00</Sn>
+              <Name>Nanbda_NaEx</Name>
+              <Script>用逐差法处理数据，根据相应公式计算钠光双线的波长差 d（nm）=</Script>
+              <VarType>Double</VarType>
+              <RealResult>0.60</RealResult>
+              <StdResult>0.60</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>4</TotalScore>
+              <RealScore>4</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.1</Min>
+                    <Max>0.1</Max>
+                  </Range>
+                  <Score>4</Score>
+                  <!--<AnswerShowInfo>原值</AnswerShowInfo>-->
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.2</Min>
+                    <Max>0.2</Max>
+                  </Range>
+                  <Score>3</Score>
+                  <!--<AnswerShowInfo>原值</AnswerShowInfo>-->
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.5</Min>
+                    <Max>0.5</Max>
+                  </Range>
+                  <Score>2</Score>
+                  <!--<AnswerShowInfo>原值</AnswerShowInfo>-->
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>10</RealScore>
+        </TestTarget>
+      </CheckPoint>
+    </Question>
+    <Question Type="OP">
+      <Sn>01</Sn>
+      <Name>使用迈克尔逊干涉仪测量透明薄片的折射率</Name>
+      <Id>SIMQUEST_MKEXGSYSY_CLMBPZSL_ZGKXJSDX_V001</Id>
+      <Type>考试题目</Type>
+      <Score>
+        <RealScore>60</RealScore>
+        <Total>60</Total>
+      </Score>
+      <Script>
+        <DOC>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="12" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="12" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="实验室提供He-Ne激光器，白光源，小孔光阑，短焦透镜，迈克尔逊干涉仪，请使用这些仪器测量透明薄片的折射率。" TextDecorations="System.Windows.TextDecorationCollection" />
+          </Paragraph>
+        </DOC>
+      </Script>
+      <InitialStatus>
+        <Script></Script>
+        <ConfigFile>SIMQUEST_MKEXGSYSY_KST2_ZGKXJSDX_V001.xml</ConfigFile>
+      </InitialStatus>
+      <KeyPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="M2上的三个螺钉的调节使显示屏的两排光点重合。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="测量透明薄片的折射率。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="利用逐差法处理数据。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+      </KeyPoint>
+      <CheckPoint>
+        <Script></Script>
+        <!--光路调节  27分-->
+        <TestTarget>
+          <Script>光路调节</Script>
+          <Group>
+            <!--放置He-Ne激光器，并打开激光器电源开关。 5分-->
+            <Para StudentVisible="False">
+              <Sn>100</Sn>
+              <Name>IsHeNejgqOnCheck_HeNe</Name>
+              <Script>放置He-Ne激光器，并打开激光器电源开关。</Script>
+              <VarType>bool</VarType>
+              <RealResult>True</RealResult>
+              <StdResult>True</StdResult>
+              <StdSource>DataBase</StdSource>
+              <StdResultShowInfo>操作正确</StdResultShowInfo>
+              <TotalScore>5</TotalScore>
+              <RealScore>5</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>5</Score>
+                  <RuleShowInfo>操作正确</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>LostWholeQuestion</Score>
+                  <RuleShowInfo>操作错误</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>操作正确</StudentResultShowInfo>
+            </Para>
+            <!--放置小孔光阑，调节M2镜上的三个螺钉, 使光点重合。12分-->
+            <Para StudentVisible="False">
+              <Name>GDCHCheck_HeNe</Name>
+              <Script>放置小孔光阑，调节M2镜上的三个螺钉, 使光点重合。</Script>
+              <VarType>bool</VarType>
+              <RealResult>True</RealResult>
+              <StdResult>True</StdResult>
+              <StdResultShowInfo>光点重合</StdResultShowInfo>
+              <StdSource>DataBase</StdSource>
+              <TotalScore>12</TotalScore>
+              <RealScore>12</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>12</Score>
+                  <RuleShowInfo>光点重合</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>光点没有重合</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>光点重合</StudentResultShowInfo>
+            </Para>
+            <!--移除小孔光阑，放置短焦透镜， 出现明亮的干涉条纹，小心的调节M2上的旋钮，使圆心位于毛玻璃中间。10分-->
+            <Para StudentVisible="False">
+              <Name>HeNeGSTWCheck_HeNe</Name>
+              <Script>移除小孔光阑，放置短焦透镜， 出现明亮的干涉条纹，小心的调节M2上的旋钮，使圆心位于毛玻璃中间。</Script>
+              <VarType>bool</VarType>
+              <RealResult>True</RealResult>
+              <StdResult>True</StdResult>
+              <StdSource>DataBase</StdSource>
+              <StdResultShowInfo>圆心位于毛玻璃中心</StdResultShowInfo>
+              <TotalScore>10</TotalScore>
+              <RealScore>10</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>10</Score>
+                  <RuleShowInfo>圆心位于毛玻璃中心</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>圆心没有位于毛玻璃中心</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>圆心位于毛玻璃中心</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>27</RealScore>
+        </TestTarget>
+        <!--读数检查 3分-->
+        <TestTarget>
+          <Script>读数检查</Script>
+          <Group>
+            <Para StudentVisible="False">
+              <Sn>28</Sn>
+              <Name>DSGS_HeNe</Name>
+              <Script>迈克尔逊干涉仪读数格式检查（以毫米为单位，保留小数点后5位）</Script>
+              <VarType>bool</VarType>
+              <RealResult>True</RealResult>
+              <StdResult>True</StdResult>
+              <StdResultShowInfo>格式正确</StdResultShowInfo>
+              <StdSource>DataBase</StdSource>
+              <TotalScore>3</TotalScore>
+              <RealScore>3</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <RuleShowInfo>格式正确</RuleShowInfo>
+                  <Score>3</Score>
+                </RightRule>
+                <WrongRule>
+                  <RuleShowInfo>格式错误</RuleShowInfo>
+                  <Score>0</Score>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>格式正确</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>3</RealScore>
+        </TestTarget>
+        <!--换白光源，移动M1，找到d=0的位置，观察到中央是直线黑纹两边对称分布彩色花纹的直线干涉条纹，开始测量玻璃薄片的折射率。-->
+        <TestTarget>
+          <Script>换白光源，移动M1，找到d=0的位置，观察到中央是直线黑纹两边对称分布彩色花纹的直线干涉条纹，开始测量玻璃薄片的折射率。</Script>
+          <Group>
+            <!--将中央黑纹移到中间，然后点击按钮保存状态  D0PosCheck  6分-->
+            <Para StudentVisible="False">
+              <Sn>03</Sn>
+              <Name>D0PosCheck</Name>
+              <Script>将中央黑纹移到中间，然后点击按钮保存状态</Script>
+              <VarType>int</VarType>
+              <RealResult>1</RealResult>
+              <StdResult>1</StdResult>
+              <StdSource>DataBase</StdSource>
+              <StdResultShowInfo>中央黑纹位于视场中心</StdResultShowInfo>
+              <TotalScore>6</TotalScore>
+              <RealScore>6</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>0</Min>
+                    <Max>0</Max>
+                  </Range>
+                  <Score>6</Score>
+                  <!--<AnswerShowInfo>中央黑纹位于视场中心</AnswerShowInfo>-->
+                  <RuleShowInfo>中央黑纹位于视场中心</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>0.1</Min>
+                    <Max>1.1</Max>
+                  </Range>
+                  <Score>2</Score>
+                  <!--<AnswerShowInfo>中央黑纹的位置有一些偏差</AnswerShowInfo>-->
+                  <RuleShowInfo>中央黑纹的位置有一些偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-1.1</Min>
+                    <Max>-0.1</Max>
+                  </Range>
+                  <Score>0</Score>
+                  <!--<AnswerShowInfo>操作错误或者没有出现彩色条纹</AnswerShowInfo>-->
+                  <RuleShowInfo>操作错误或者没有出现彩色条纹</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+              <StudentResultShowInfo>中央黑纹位于视场中心</StudentResultShowInfo>
+            </Para>
+            <!--此时M1的位置(mm)  D0Pos-->
+            <Para StudentVisible="True">
+              <Sn>04</Sn>
+              <Name>D0Pos</Name>
+              <Script>此时M1的位置(mm)</Script>
+              <VarType>double</VarType>
+              <RealResult>31.10265</RealResult>
+              <StdResult></StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule />
+            </Para>
+            <!--放置玻璃薄片，再将中央黑纹移动至中心，点击按钮保存状态  D_BL_PosCheck  6分-->
+            <Para StudentVisible="False">
+              <Sn>00</Sn>
+              <Name>D_BL_PosCheck</Name>
+              <Script>放置玻璃薄片，再将中央黑纹移动至中心，点击按钮保存状态</Script>
+              <VarType>int</VarType>
+              <RealResult>1</RealResult>
+              <StdResult>1</StdResult>
+              <StdSource>DataBase</StdSource>
+              <StdResultShowInfo>中央黑纹位于视场中心</StdResultShowInfo>
+              <TotalScore>6</TotalScore>
+              <RealScore>6</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>0</Min>
+                    <Max>0</Max>
+                  </Range>
+                  <Score>6</Score>
+                  <!--<AnswerShowInfo>中央黑纹位于视场中心</AnswerShowInfo>-->
+                  <RuleShowInfo>中央黑纹位于视场中心</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>0.1</Min>
+                    <Max>1.1</Max>
+                  </Range>
+                  <Score>2</Score>
+                  <!--<AnswerShowInfo>中央黑纹的位置有一些偏差</AnswerShowInfo>-->
+                  <RuleShowInfo>中央黑纹的位置有一些偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-1.1</Min>
+                    <Max>-0.1</Max>
+                  </Range>
+                  <Score>0</Score>
+                  <!--<AnswerShowInfo>操作错误或者没有出现彩色条纹</AnswerShowInfo>-->
+                  <RuleShowInfo>操作错误或者没有出现彩色条纹</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+              <StudentResultShowInfo>中央黑纹位于视场中心</StudentResultShowInfo>
+            </Para>
+            <!--此时M1的位置(mm)  D_SYBL_Pos-->
+            <Para StudentVisible="True">
+              <Sn>04</Sn>
+              <Name>D_SYBL_Pos</Name>
+              <Script>此时M1的位置(mm)</Script>
+              <VarType>double</VarType>
+              <RealResult>31.09760</RealResult>
+              <StdResult></StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule />
+            </Para>
+          </Group>
+          <RealScore>12</RealScore>
+        </TestTarget>
+        <!--移除玻璃薄片，移动M1，找到d=0的位置，观察到中央是直线黑纹两边对称分布彩色花纹的直线干涉条纹，开始测量水晶薄片的折射率。-->
+        <TestTarget StudentVisible="True">
+          <Script>移除玻璃薄片，移动M1，找到d=0的位置，观察到中央是直线黑纹两边对称分布彩色花纹的直线干涉条纹，开始测量水晶薄片的折射率。</Script>
+          <Group>
+            <!--将中央黑纹移到中间，然后点击按钮保存状态  D0PosCheck  6分-->
+            <Para StudentVisible="False">
+              <Sn>03</Sn>
+              <Name>D0PosCheck</Name>
+              <Script>将中央黑纹移到中间，然后点击按钮保存状态</Script>
+              <VarType>int</VarType>
+              <RealResult>1</RealResult>
+              <StdResult>1</StdResult>
+              <StdSource>DataBase</StdSource>
+              <StdResultShowInfo>中央黑纹位于视场中心</StdResultShowInfo>
+              <TotalScore>6</TotalScore>
+              <RealScore>6</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>0</Min>
+                    <Max>0</Max>
+                  </Range>
+                  <Score>6</Score>
+                  <AnswerShowInfo>中央黑纹位于视场中心</AnswerShowInfo>
+                  <RuleShowInfo>中央黑纹位于视场中心</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>0.1</Min>
+                    <Max>1.1</Max>
+                  </Range>
+                  <Score>2</Score>
+                  <AnswerShowInfo>中央黑纹的位置有一些偏差</AnswerShowInfo>
+                  <RuleShowInfo>中央黑纹的位置有一些偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-1.1</Min>
+                    <Max>-0.1</Max>
+                  </Range>
+                  <Score>0</Score>
+                  <AnswerShowInfo>操作错误或者没有出现彩色条纹</AnswerShowInfo>
+                  <RuleShowInfo>操作错误或者没有出现彩色条纹</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+              <StudentResultShowInfo>中央黑纹位于视场中心</StudentResultShowInfo>
+            </Para>
+            <!--此时M1的位置(mm)  D0Pos-->
+            <Para StudentVisible="True">
+              <Sn>04</Sn>
+              <Name>D0Pos</Name>
+              <Script>此时M1的位置(mm)</Script>
+              <VarType>double</VarType>
+              <RealResult>31.18615</RealResult>
+              <StdResult></StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule />
+            </Para>
+            <!--放置水晶薄片，再将中央黑纹移动至中心，点击按钮保存状态  D_SJ_PosCheck  6分-->
+            <Para StudentVisible="False">
+              <Sn>00</Sn>
+              <Name>D_SJ_PosCheck</Name>
+              <Script>放置水晶薄片，再将中央黑纹移动至中心，点击按钮保存状态</Script>
+              <VarType>int</VarType>
+              <RealResult>1</RealResult>
+              <StdResult>1</StdResult>
+              <StdSource>DataBase</StdSource>
+              <StdResultShowInfo>中央黑纹位于视场中心</StdResultShowInfo>
+              <TotalScore>6</TotalScore>
+              <RealScore>6</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>0</Min>
+                    <Max>0</Max>
+                  </Range>
+                  <Score>6</Score>
+                  <!--<AnswerShowInfo>中央黑纹位于视场中心</AnswerShowInfo>-->
+                  <RuleShowInfo>中央黑纹位于视场中心</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>0.1</Min>
+                    <Max>1.1</Max>
+                  </Range>
+                  <Score>2</Score>
+                  <!--<AnswerShowInfo>中央黑纹的位置有一些偏差</AnswerShowInfo>-->
+                  <RuleShowInfo>中央黑纹的位置有一些偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-1.1</Min>
+                    <Max>-0.1</Max>
+                  </Range>
+                  <Score>0</Score>
+                  <!--<AnswerShowInfo>操作错误或者没有出现彩色条纹</AnswerShowInfo>-->
+                  <RuleShowInfo>操作错误或者没有出现彩色条纹</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+              <StudentResultShowInfo>中央黑纹位于视场中心</StudentResultShowInfo>
+            </Para>
+            <!--此时M1的位置(mm)   D_SJBP_Pos-->
+            <Para StudentVisible="True">
+              <Sn>04</Sn>
+              <Name>D_SJBP_Pos</Name>
+              <Script>此时M1的位置(mm)</Script>
+              <VarType>double</VarType>
+              <RealResult>31.18010</RealResult>
+              <StdResult></StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule />
+            </Para>
+          </Group>
+          <RealScore>12</RealScore>
+        </TestTarget>
+        <!--根据上面测量出的数据和薄片的厚度（0.01mm），计算出两种薄片的折射率。-->
+        <TestTarget StudentVisible="True">
+          <Script>根据上面测量出的数据和薄片的厚度（0.01mm），计算出两种薄片的折射率。</Script>
+          <Group>
+            <!--将计算结果填入下表 6分-->
+            <Para StudentVisible="True">
+              <Sn>05</Sn>
+              <Name>CalcNList</Name>
+              <Script>将计算结果填入下表</Script>
+              <VarType Count="2">TList</VarType>
+              <RealResult>(透明薄片,折射率N);(玻璃,1.51);(水晶,1.54)</RealResult>
+              <StdResult>(透明薄片,折射率N);(玻璃,1.51);(水晶,1.54)</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>6</TotalScore>
+              <RealScore>6</RealScore>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>INDEX</Name>
+                <Script>透明薄片</Script>
+                <VarType Count="1">double</VarType>
+                <StdSource></StdSource>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>BPZSL</Name>
+                <Script>折射率N</Script>
+                <VarType Count="1">double</VarType>
+                <StdSource></StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.05</Min>
+                      <Max>0.05</Max>
+                    </Range>
+                    <Score>3</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+            </Para>
+          </Group>
+          <RealScore>6</RealScore>
+        </TestTarget>
+      </CheckPoint>
+    </Question>
+    <Question Type="OP">
+      <Sn>01</Sn>
+      <Name>使用迈克尔逊干涉仪测量He-Ne激光的波长</Name>
+      <Id>SIMQUEST_MKEXGSYSY_CLHNJGBC_ZGKXJSDX_V001</Id>
+      <Type>考试题目</Type>
+      <Score>
+        <RealScore>55</RealScore>
+        <Total>55</Total>
+      </Score>
+      <Script>
+        <DOC>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="12" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="12" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="实验室提供He-Ne激光器，白光源，小孔光阑，短焦透镜，迈克尔逊干涉仪，请使用这些仪器测量He-Ne激光的波长。" TextDecorations="System.Windows.TextDecorationCollection" />
+          </Paragraph>
+        </DOC>
+      </Script>
+      <InitialStatus>
+        <Script></Script>
+        <ConfigFile>SIMQUEST_MKEXGSYSY_KST3_ZGKXJSDX_V001.xml</ConfigFile>
+      </InitialStatus>
+      <KeyPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="M2上的三个螺钉的调节使显示屏的两排光点重合。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="利用干涉图像的吞吐测量He-Ne激光的波长。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="利用逐差法处理数据。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+      </KeyPoint>
+      <CheckPoint>
+        <Script></Script>
+        <!--光路调节  27分-->
+        <TestTarget>
+          <Script>光路调节</Script>
+          <Group>
+            <!--放置He-Ne激光器，并打开激光器电源开关。5分-->
+            <Para StudentVisible="False">
+              <Sn>100</Sn>
+              <Name>IsHeNejgqOnCheck_white</Name>
+              <Script>放置He-Ne激光器，并打开激光器电源开关。</Script>
+              <VarType>bool</VarType>
+              <RealResult>True</RealResult>
+              <StdResult>True</StdResult>
+              <StdSource>DataBase</StdSource>
+              <StdResultShowInfo>操作正确</StdResultShowInfo>
+              <TotalScore>5</TotalScore>
+              <RealScore>5</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>5</Score>
+                  <RuleShowInfo>操作正确</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>LostWholeQuestion</Score>
+                  <RuleShowInfo>操作错误</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>操作正确</StudentResultShowInfo>
+            </Para>
+            <!--放置小孔光阑，调节M2镜上的三个螺钉, 使光点重合。  12分-->
+            <Para StudentVisible="False">
+              <Name>GDCHCheck_white</Name>
+              <Script>放置小孔光阑，调节M2镜上的三个螺钉, 使光点重合。</Script>
+              <VarType>bool</VarType>
+              <RealResult>True</RealResult>
+              <StdResult>True</StdResult>
+              <StdResultShowInfo>光点重合</StdResultShowInfo>
+              <StdSource>DataBase</StdSource>
+              <TotalScore>12</TotalScore>
+              <RealScore>12</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>12</Score>
+                  <RuleShowInfo>光点重合</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>光点没有重合</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>光点重合</StudentResultShowInfo>
+            </Para>
+            <!--移除小孔光阑，放置短焦透镜， 出现明亮的干涉条纹，小心的调节M2上的旋钮，使圆心位于毛玻璃中间。 10分-->
+            <Para StudentVisible="False">
+              <Name>HeNeGSTWCheck_white</Name>
+              <Script>移除小孔光阑，放置短焦透镜， 出现明亮的干涉条纹，小心的调节M2上的旋钮，使圆心位于毛玻璃中间。</Script>
+              <VarType>bool</VarType>
+              <RealResult>True</RealResult>
+              <StdResult>True</StdResult>
+              <StdSource>DataBase</StdSource>
+              <StdResultShowInfo>圆心位于毛玻璃中心</StdResultShowInfo>
+              <TotalScore>10</TotalScore>
+              <RealScore>10</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>10</Score>
+                  <RuleShowInfo>圆心位于毛玻璃中心</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>圆心没有位于毛玻璃中心</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>圆心位于毛玻璃中心</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>27</RealScore>
+        </TestTarget>
+        <!--读数检查  3分-->
+        <TestTarget>
+          <Script>读数检查</Script>
+          <Group>
+            <Para StudentVisible="False">
+              <Sn>28</Sn>
+              <Name>DSGS_white</Name>
+              <Script>迈克尔逊干涉仪读数格式检查（以毫米为单位，保留小数点后5位）</Script>
+              <VarType>bool</VarType>
+              <RealResult>True</RealResult>
+              <StdResult>True</StdResult>
+              <StdResultShowInfo>格式正确</StdResultShowInfo>
+              <StdSource>DataBase</StdSource>
+              <TotalScore>3</TotalScore>
+              <RealScore>3</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <RuleShowInfo>格式正确</RuleShowInfo>
+                  <Score>3</Score>
+                </RightRule>
+                <WrongRule>
+                  <RuleShowInfo>格式错误</RuleShowInfo>
+                  <Score>0</Score>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>格式正确</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>3</RealScore>
+        </TestTarget>
+        <!--转动鼓轮，观察到干涉条纹中“吞”“吐”变化。中心每“生成”或“吞进”30个干涉条纹记录一次数据，连续记录6次。-->
+        <TestTarget>
+          <Script>转动鼓轮，观察到干涉条纹中“吞”“吐”变化。中心每“生成”或“吞进”30个干涉条纹记录一次数据，连续记录6次。</Script>
+          <Group>
+            <!--选择M1镜的一个初始位置，作为第一列填入表格，然后将中心每“生出”或“吞进”30个条纹时M1镜的位置填入表格其他列中。-->
+            <Para StudentVisible="True">
+              <Sn>00</Sn>
+              <Name>M1PosList</Name>
+              <Script>选择M1镜的一个初始位置，作为第一列填入表格，然后将中心每“生出”或“吞进”30个条纹时M1镜的位置填入表格其他列中。</Script>
+              <VarType Count="6">TList</VarType>
+              <RealResult>(测量编号,D(mm));(1,30.45000);(2,30.45935);(3,30.46875);(4,30.47820);(5,30.48755);(6,30.49715)</RealResult>
+              <StdResult>(测量编号,D(mm));(1,30.45000);(2,30.45935);(3,30.46875);(4,30.47820);(5,30.48755);(6,30.49715)</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>INDEX</Name>
+                <Script>测量编号</Script>
+                <VarType Count="1">double</VarType>
+                <StdSource>DataBase</StdSource>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>M1Pos</Name>
+                <Script>D(mm)</Script>
+                <VarType>double</VarType>
+                <StdSource>Exp</StdSource>
+              </Para>
+            </Para>
+            <!--利用逐差法，根据上面的数据算出三组差值，并填入下表  15分-->
+            <Para StudentVisible="True">
+              <Sn>00</Sn>
+              <Name>FDYGS_XXMS</Name>
+              <Script>利用逐差法，根据上面的数据算出三组差值，并填入下表</Script>
+              <VarType Count="3">TList</VarType>
+              <RealResult>(测量编号,ΔD(mm));(1,0.0282);(2,0.0282);(3,0.0284)</RealResult>
+              <StdResult>(测量编号,ΔD(mm));(1,0.02848);(2,0.02848);(3,0.02848)</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>15</TotalScore>
+              <RealScore>15</RealScore>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>INDEX</Name>
+                <Script>测量编号</Script>
+                <VarType Count="3">double</VarType>
+                <StdSource>DataBase</StdSource>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>DeltaH_30_HeNe_3</Name>
+                <Script>ΔD(mm)</Script>
+                <VarType Count="1">double</VarType>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.1</Min>
+                      <Max>0.1</Max>
+                    </Range>
+                    <Score>5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+            </Para>
+            <!--用逐差法处理数据，根据相应公式计算He-Ne激光的波长λ（nm） 10分-->
+            <Para StudentVisible="True">
+              <Sn>00</Sn>
+              <Name>Nanbda_HeNe</Name>
+              <Script>用逐差法处理数据，根据相应公式计算He-Ne激光的波长λ（nm）=</Script>
+              <VarType>Double</VarType>
+              <RealResult>628.15</RealResult>
+              <StdResult>632.80</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>10</TotalScore>
+              <RealScore>10</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.05</Min>
+                    <Max>0.05</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.1</Min>
+                    <Max>0.1</Max>
+                  </Range>
+                  <Score>9</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.5</Min>
+                    <Max>0.5</Max>
+                  </Range>
+                  <Score>6</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>25</RealScore>
+        </TestTarget>
+      </CheckPoint>
+    </Question>
+  </Content>
+</ExamPaper>

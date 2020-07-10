@@ -1,0 +1,434 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExamPaper>
+  <Title>
+    <Name>电位差计的使用</Name>
+    <Id>SIMEXP_COPDZTXYJ_PNTEMPTURE_V001</Id>
+    <Writer>
+      <Id>出卷人ＩＤ</Id>
+      <Name>出卷人名称</Name>
+    </Writer>
+    <User>
+      <Id>使用者ＩＤ</Id>
+      <Name>使用者姓名</Name>
+      <Time>
+        <MaxTime>考试时间限制</MaxTime>
+        <RealTime>4425</RealTime>
+      </Time>
+    </User>
+    <FinalResult>true</FinalResult>
+  </Title>
+  <Content>
+    <Question Type="OP">
+      <Sn>题目编号1</Sn>
+      <Name>电位差计的使用</Name>
+      <Id>SIMEXP_COPDZTXYJ_PNTEMPTURE_V001</Id>
+      <Type>实验内容</Type>
+      <Score>
+        <Total>100</Total>
+        <RealScore>100</RealScore>
+      </Score>
+      <Script>
+        <DOC>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="电位差计的使用。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="         " TextDecorations="" />
+            <Inline Type="Image" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" TextDecorations="" ImageWidth="500" ImageHeight="253" ImageMargin="0,0,0,0" ImageSource="ImageData:0" />
+          </Paragraph>
+          <ImageCollection>
+            <ImageData Key="0"><![CDATA[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]]></ImageData>
+          </ImageCollection>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）根据实验原理图接好电路。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）根据室温求出标准电池电动势的数值，按电位差计的使用方法调节好电位差计。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）使用温控实验仪控制不同的加热温度，每隔5℃进行一次测量，分别测量高温端在55.0~90.0之间的热电偶温差电动势。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）参照数据表格，记录测量的数据，利用用逐差法计算温差系数C。" TextDecorations="" />
+          </Paragraph>
+        </DOC>
+      </Script>
+      <InitialStatus>
+        <Script>
+          仪器：UJ31型直流低电势电位差计、标准电池（附带温度计）、AC5直流检流计、保温杯（内置冰水混合物）、样品室以及加热装置、恒流温控仪
+          仪器的初始状态：所有仪器都摆放在试验桌上，允许拖动和删除。
+        </Script>
+        <ConfigFile>SIMEXP_COPDZTXYJ_PNTEMPTURE_V001.xml</ConfigFile>
+      </InitialStatus>
+      <KeyPoint>
+        <Script>
+          <DOC></DOC>
+        </Script>
+      </KeyPoint>
+      <CheckPoint>
+        <Script>
+          <DOC></DOC>
+        </Script>
+        <!--1、连线   15分-->
+        <TestTarget>
+          <Script>连线</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>LineConnStatus</Name>
+              <VarType>bool</VarType>
+              <Script>将电路连接好，然后点击按钮保存连线状态</Script>
+              <RealResult>true</RealResult>
+              <StdResult>true</StdResult>
+              <StdResultShowInfo>连接成功</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>15</TotalScore>
+              <RealScore>15</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>15</Score>
+                  <RuleShowInfo>连接成功</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>连接失败</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>连接成功</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>15</RealScore>
+        </TestTarget>
+        <!--2、测量正向电压随正向电流的变化关系   18分-->
+        <TestTarget>
+          <Script>标准电池的电动势</Script>
+          <Group>
+            <!--  标准电池温度  8分-->
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>BiaoZhuenTemp</Name>
+              <VarType>double</VarType>
+              <Script>标准电池温度Tb(℃)=</Script>
+              <RealResult>23.8</RealResult>
+              <StdResult>23.9</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>8</TotalScore>
+              <RealScore>8</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-0.50</Min>
+                    <Max>0.50</Max>
+                  </Range>
+                  <Score>8</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-0.8</Min>
+                    <Max>0.8</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <!--标准电池的电动势Es  10分-->
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>DianDongShi</Name>
+              <VarType>double</VarType>
+              <Script>在该温度下，标准电池的电动势Es（V）=</Script>
+              <RealResult>1.0184</RealResult>
+              <StdResult>1.0184</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>10</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.05</Min>
+                    <Max>0.05</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.1</Min>
+                    <Max>0.1</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>18</RealScore>
+        </TestTarget>
+        <!--3、测绘PN结正向压降VF随温度的变化曲线   32分-->
+        <TestTarget>
+          <Script>测量热电偶温差电动势</Script>
+          <Group>
+            <!--热电偶低温端温度t0(℃)=  8-->
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>T0</Name>
+              <VarType>double</VarType>
+              <Script>热电偶低温端温度t0(℃)=</Script>
+              <RealResult>0</RealResult>
+              <StdResult>0.0</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>8</TotalScore>
+              <RealScore>8</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-0.5</Min>
+                    <Max>0.5</Max>
+                  </Range>
+                  <Score>8</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-0.8</Min>
+                    <Max>0.8</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <!--  使用温控实验仪设定不同的加热温度 24-->
+            <Para StudentVisible="True">
+              <sn>12</sn>
+              <Name>PTList</Name>
+              <VarType Count="8">TList</VarType>
+              <Script>使用温控实验仪设定不同的加热温度，当温控仪温度达到稳定时，测量该温度下的热电偶温差电动势；每隔5℃进行一次测量，分别测量高温端在55.0~90.0之间的热电偶温差电动势。根据测量结果，完成下表。</Script>
+              <RealResult>(高温t（℃）,温差(t-t0)（℃）,温差电动势Ex(mV));(90.0,90.0,3.7460);(85.0,85.0,3.5379);(80.0,80.0,3.3298);(75.0,75.0,3.1218);(70.0,70.0,2.9136);(65.0,65.0,2.7056);(60.0,60.0,2.4975);(55.0,55.0,2.2890)</RealResult>
+              <StdResult>(高温t（℃）,温差(t-t0)（℃）,温差电动势Ex(mV));(90.0,90.0,3.7440);(85.0,85.0,3.5360);(80.0,80.0,3.3280);(75.0,75.0,3.1200);(70.0,70.0,2.9120);(65.0,65.0,2.7040);(60.0,60.0,2.4960);(55.0,55.0,2.2880)</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>24</TotalScore>
+              <RealScore>24</RealScore>
+              <Para>
+                <Sn>0</Sn>
+                <Name>INDEX</Name>
+                <Script>高温t（℃）;90.0;85.0;80.0;75.0;70.0;65.0;60.0;55.0</Script>
+                <VarType>int</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>ShenWen</Name>
+                <Script>温差(t-t0)（℃）</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <TotalScore>8</TotalScore>
+                <RealScore>0</RealScore>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.1</Min>
+                      <Max>0.1</Max>
+                    </Range>
+                    <Score>1</Score>
+                    <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>2</sn>
+                <Name>JiangWen</Name>
+                <Script>温差电动势Ex(mV)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <TotalScore>16</TotalScore>
+                <RealScore>0</RealScore>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.02</Min>
+                      <Max>0.02</Max>
+                    </Range>
+                    <Score>2</Score>
+                    <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+            </Para>
+          </Group>
+          <RealScore>32</RealScore>
+        </TestTarget>
+        <!--4 计算温差系数  18-->
+        <TestTarget>
+          <Script>计算温差系数</Script>
+          <Group>
+            <!--利用逐差法计算温差系数   12-->
+            <Para StudentVisible="True">
+              <sn>12</sn>
+              <Name>PTcxList</Name>
+              <VarType Count="4">TList</VarType>
+              <Script>根据不同温度下热电偶的温差电动势测量结果，利用逐差法计算温差系数。</Script>
+              <RealResult>(序号,(Ex(i)-Ex(i+4))/(5*4)  (单位：mV/℃));(1,0.04162);(2,0.04162);(3,0.04162);(4,0.04164)</RealResult>
+              <StdResult>(序号,(Ex(i)-Ex(i+4))/(5*4)  (单位：mV/℃));(1,0.0416);(2,0.0416);(3,0.0416);(4,0.0416)</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>12</TotalScore>
+              <RealScore>12</RealScore>
+              <Para>
+                <Sn>0</Sn>
+                <Name>INDEX</Name>
+                <Script>序号</Script>
+                <VarType>int</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>WenCha</Name>
+                <Script>(Ex(i)-Ex(i+4))/(5*4)  (单位：mV/℃)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <TotalScore>12</TotalScore>
+                <RealScore>0</RealScore>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.001</Min>
+                      <Max>0.001</Max>
+                    </Range>
+                    <Score>3</Score>
+                    <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+            </Para>
+            <!--铜—康铜丝电偶的温差系数  11-->
+            <Para StudentVisible="true">
+              <Sn>1</Sn>
+              <Name>LingMinDu</Name>
+              <VarType>double</VarType>
+              <Script>铜—康铜丝电偶的温差系数C(mV/℃)=</Script>
+              <RealResult>0.04163</RealResult>
+              <StdResult>0.0416</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>11</TotalScore>
+              <RealScore>11</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.03</Min>
+                    <Max>0.03</Max>
+                  </Range>
+                  <Score>11</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.05</Min>
+                    <Max>0.05</Max>
+                  </Range>
+                  <Score>6</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>23</RealScore>
+        </TestTarget>
+        <!-- 5 隐藏考察点  20-->
+        <TestTarget>
+          <Script>检流计和电位差计的调零</Script>
+          <Group>
+            <!--检流计调零  6-->
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>ZeroValue</Name>
+              <VarType>bool</VarType>
+              <Script>检流计调零</Script>
+              <RealResult>True</RealResult>
+              <StdResult>true</StdResult>
+              <StdResultShowInfo>检流计已经调零</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>6</TotalScore>
+              <RealScore>6</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>6</Score>
+                  <RuleShowInfo>检流计已经调零</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>检流计尚未调零</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>检流计已经调零</StudentResultShowInfo>
+            </Para>
+            <!--检流计调零  6-->
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>Adjustment</Name>
+              <VarType>bool</VarType>
+              <Script>电位差计校准</Script>
+              <RealResult>True</RealResult>
+              <StdResult>true</StdResult>
+              <StdResultShowInfo>电位差计已经校准</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>6</TotalScore>
+              <RealScore>6</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>6</Score>
+                  <RuleShowInfo>电位差计已经校准</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>电位差计尚未校准</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>电位差计已经校准</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>12</RealScore>
+        </TestTarget>
+      </CheckPoint>
+    </Question>
+  </Content>
+</ExamPaper>

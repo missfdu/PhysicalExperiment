@@ -1,0 +1,547 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExamPaper>
+  <Title>
+    <Name>钢丝杨氏模量的测定</Name>
+    <Id>SIMEXAM_GSYSMLDCD_ZGKXJSDX_V001</Id>
+    <Writer>
+      <Id>出卷人ＩＤ</Id>
+      <Name>出卷人名称</Name>
+    </Writer>
+    <User>
+      <Id>使用者ＩＤ</Id>
+      <Name>使用者姓名</Name>
+      <Time>
+        <MaxTime>7200</MaxTime>
+        <RealTime>700</RealTime>
+      </Time>
+    </User>
+    <FinalResult>true</FinalResult>
+  </Title>
+  <Content>
+    <Question Type="OP">
+      <Sn>题目编号1</Sn>
+      <Name>拉伸法测金属丝杨氏模量</Name>
+      <Id>SIMQUEST_GSYSMLDCD_JLLSFCJSSYSML_ZGKXJSDX_V001</Id>
+      <Type>操作题</Type>
+      <Score>
+        <Total>60</Total>
+        <RealScore>60</RealScore>
+      </Score>
+      <Script>
+        <DOC>
+          <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="1、用实验室准备的水平仪放置在平台上，调节支架底脚螺丝，确保平台水平。调平台的上下位置，使管制器顶部与平台的上表面共面。" TextDecorations="System.Windows.TextDecorationCollection" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="2、将光杠杆放置于平台上，旋松固定螺丝移动杠杆使其前两锥形足尖(或刀口)放入平台的沟槽内，后锥形足尖放在管制器的槽中（不得与钢丝相碰），再旋紧螺丝。之后再调节平面镜的仰角使镜面垂直，即光杠杆镜面法线与望远镜轴线大体重合，按先粗调后细调的原则，使其能将标尺（标尺初始位置在0－4cm之间）上的刻度反射到望远镜里，利用望远镜上的准星瞄准光杠杆平面镜中的标尺像。" TextDecorations="System.Windows.TextDecorationCollection" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="3、调节望远镜目镜看清叉丝，再调聚焦旋钮可以找到标尺，如果没找到标尺请不要过急调聚焦旋钮，重新瞄准光杠杆平面镜中的标尺像，重复以上调试。要注意：使标尺的像消除视差(即眼睛上下移动时，所看到的竖尺刻度像和叉丝之间应没有相对变动)。" TextDecorations="System.Windows.TextDecorationCollection" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="4、光杠杆、望远镜、标尺调整好以后，整个实验中防止位置变动。加减砝码要交叉轻放轻取避免晃动、倾斜，使钢丝与管制器之间发生摩擦，待钢丝（钢丝伸长时存在滞后现象）静止后(约30秒左右)再读数。" TextDecorations="System.Windows.TextDecorationCollection" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="5、测量钢丝长度，应注意两端点的位置，上端起于夹钢丝的两个半圆柱的下表面，下端止于管制器的下表面。" TextDecorations="System.Windows.TextDecorationCollection" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="6、记录望远镜中标尺的读数r0作为钢丝的起始长度。在砝码托上逐次加500g砝码（可加到3500g）,观察每增加500g时望远镜中标尺上的读数ri，然后再将砝码逐次减去，记下对应的读数ri" TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="'" TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="，取两组对应数据的平均值。" TextDecorations="System.Windows.TextDecorationCollection" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="7、用米尺测量金属丝的长度L和平面镜与直尺之间的距离D，以及光杠杆的臂长 l，用千分尺测金属丝直径d，上、中、下各测2次，共6次。" TextDecorations="System.Windows.TextDecorationCollection" />
+          </Paragraph>
+          <!--<Paragraph Name='' FontFamily='Arial,Simsun' FontSize='13' FontStretch='Normal' TextAlignment='Left' FontStyle='Normal' FontWeight='Normal' Foreground='#FF000000' >
+            <Inline Type='Run' Name='' FontFamily='Arial,Simsun' FontSize='13' FontStretch='Normal' FontStyle='Normal' FontWeight='Normal' Foreground='#FF000000' Text='8、要求逐差法处理数据，并求△E/E（最大不确定度）' TextDecorations='System.Windows.TextDecorationCollection'/>
+            <Inline Type='Run' Name='' FontFamily='Arial,Simsun' FontSize='13' FontStretch='Normal' FontStyle='Normal' FontWeight='Normal' Foreground='#FF000000' Text='。' TextDecorations='System.Windows.TextDecorationCollection'/>
+          </Paragraph>-->
+          <ImageCollection></ImageCollection>
+        </DOC>
+      </Script>
+      <InitialStatus>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="" TextDecorations="" />
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="实验仪器及其状态：杨氏模量测试仪，螺旋测微计，米尺，光杠杆，望远镜和直尺等。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="1、望远镜的初始状态随机，平面镜与标尺不平行，位置随机，望远镜叉丝不清晰，望远镜物镜无反射像，标尺反射像不在叉丝中心。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="2、水平仪气泡位置随机。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="3、钢丝的长度在一定范围内随机。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="4、标尺到平面镜的距离在一定范围内随机。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="5、螺旋测微器初读数随机。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="6、钢丝加砝码后的伸长量在一定范围内随机产生。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+        <ConfigFile>SIMQUEST_GSYSMLDCD_JLLSFCJSSYSML_ZGKXJSDX_V001.xml</ConfigFile>
+      </InitialStatus>
+      <KeyPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="考查学生对于测量杨氏模量原理的掌握情况，用光杠杆法测量微小长度变化的原理（放大法 ）掌握，测量仪器调节和使用的实验能力，以及逐差法的掌握。关键考查点为：" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="1、仪器状态调整。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="2、望远镜的调节。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="3、米尺和螺旋测微器的正确使用和读数。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="4、加减砝码，测量伸长量。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="5、数据的记录和处理，应用逐差法，得到杨氏模量。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+      </KeyPoint>
+      <CheckPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="拉伸法测金属丝杨氏模量" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+        <TestTarget>
+          <Script>实验考察的隐藏变量</Script>
+          <RealScore>15</RealScore>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>3636</Sn>
+              <Name>IsBedSuccess</Name>
+              <Script>底座水平调节</Script>
+              <VarType Count="0">bool</VarType>
+              <RealResult>true</RealResult>
+              <StdResult>true</StdResult>
+              <StdSource>DataBase</StdSource>
+              <StdResultShowInfo>底座水平调节成功</StdResultShowInfo>
+              <TotalScore>5</TotalScore>
+              <RealScore>5</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>5</Score>
+                  <RuleShowInfo>底座水平调节成功</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>底座水平调节失败</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>底座水平调节成功</StudentResultShowInfo>
+            </Para>
+            <Para StudentVisible="false">
+              <Sn>3637</Sn>
+              <Name>IsMirrorSuccess</Name>
+              <Script>平面镜与平台垂直</Script>
+              <VarType Count="0">bool</VarType>
+              <RealResult>true</RealResult>
+              <StdResult>true</StdResult>
+              <StdSource>DataBase</StdSource>
+              <StdResultShowInfo>平面镜调节成功</StdResultShowInfo>
+              <TotalScore>5</TotalScore>
+              <RealScore>5</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>5</Score>
+                  <RuleShowInfo>平面镜调节成功</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>平面镜调节失败</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>平面镜调节成功</StudentResultShowInfo>
+            </Para>
+            <Para StudentVisible="false">
+              <Sn>3638</Sn>
+              <Name>IsFocusingSuccess</Name>
+              <Script>望远镜的调节(十字叉丝线清晰)</Script>
+              <VarType Count="0">bool</VarType>
+              <RealResult>true</RealResult>
+              <StdResult>true</StdResult>
+              <StdSource>DataBase</StdSource>
+              <StdResultShowInfo>望远镜(十字叉丝线)调节成功</StdResultShowInfo>
+              <TotalScore>2.5</TotalScore>
+              <RealScore>2.5</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>2.5</Score>
+                  <RuleShowInfo>望远镜(十字叉丝线)调节成功</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>望远镜(十字叉丝线)调节失败</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>望远镜(十字叉丝线)调节成功</StudentResultShowInfo>
+            </Para>
+            <Para StudentVisible="false">
+              <Sn>3639</Sn>
+              <Name>IsRulerClearness</Name>
+              <Script>望远镜的调节(标尺清晰)</Script>
+              <VarType Count="0">bool</VarType>
+              <RealResult>true</RealResult>
+              <StdResult>true</StdResult>
+              <StdSource>DataBase</StdSource>
+              <StdResultShowInfo>望远镜(直尺)调节成功</StdResultShowInfo>
+              <TotalScore>2.5</TotalScore>
+              <RealScore>2.5</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>2.5</Score>
+                  <RuleShowInfo>望远镜(直尺)调节成功</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>望远镜(直尺)调节失败</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>望远镜(直尺)调节成功</StudentResultShowInfo>
+            </Para>
+          </Group>
+        </TestTarget>
+        <TestTarget>
+          <Script>使用米尺测量光杠杆臂长、钢丝长度、标尺到平面镜的水平距离</Script>
+          <RealScore>21</RealScore>
+          <Group>
+            <Para StudentVisible="true">
+              <Sn>3640</Sn>
+              <Name>ArmLength</Name>
+              <Script>光杠杆臂长b(单位：m)</Script>
+              <VarType Count="0">double</VarType>
+              <RealResult>0.071</RealResult>
+              <StdResult>0.0710</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>8</TotalScore>
+              <RealScore>8</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.05</Min>
+                    <Max>0.05</Max>
+                  </Range>
+                  <Score>8</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.1</Min>
+                    <Max>0.1</Max>
+                  </Range>
+                  <Score>4</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>3641</Sn>
+              <Name>StealWireLength</Name>
+              <Script>钢丝长度L(单位：m)</Script>
+              <VarType Count="0">double</VarType>
+              <RealResult>1.001</RealResult>
+              <StdResult>1.0024</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>8</TotalScore>
+              <RealScore>8</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.05</Min>
+                    <Max>0.05</Max>
+                  </Range>
+                  <Score>8</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.1</Min>
+                    <Max>0.1</Max>
+                  </Range>
+                  <Score>4</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>3642</Sn>
+              <Name>HorizontalSpace</Name>
+              <Script>标尺到平面镜的距离D(单位：m)</Script>
+              <VarType Count="0">double</VarType>
+              <RealResult>1.201</RealResult>
+              <StdResult>1.2057</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>5</TotalScore>
+              <RealScore>5</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.05</Min>
+                    <Max>0.05</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.1</Min>
+                    <Max>0.1</Max>
+                  </Range>
+                  <Score>3</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+        </TestTarget>
+        <TestTarget>
+          <Script>使用螺旋测微计测量钢丝直径，并将结果填入下表：</Script>
+          <RealScore>5</RealScore>
+          <Group>
+            <Para StudentVisible="true">
+              <Sn>3643</Sn>
+              <Name>StealWireDiaList</Name>
+              <Script>测量6次金属丝直径d(单位：mm)</Script>
+              <VarType Count="6">TList</VarType>
+              <RealResult>(测量次数,钢丝直径);(1,0.301);(2,0.299);(3,0.299);(4,0.300);(5,0.301);(6,0.299)</RealResult>
+              <StdResult>(测量次数,钢丝直径);(1,0.301);(2,0.301);(3,0.301);(4,0.301);(5,0.301);(6,0.301)</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+              <Para>
+                <Sn />
+                <Name>INDEX</Name>
+                <Script>测量次数</Script>
+                <VarType>double</VarType>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <Sn />
+                <Name>Dia</Name>
+                <Script>钢丝直径</Script>
+                <VarType>double</VarType>
+                <StdSource>Exp</StdSource>
+              </Para>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>3644</Sn>
+              <Name>StealWireDia</Name>
+              <Script>钢丝直径6次测量的平均值d(单位：mm)</Script>
+              <VarType Count="0">double</VarType>
+              <RealResult>0.300</RealResult>
+              <StdResult>0.301</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>5</TotalScore>
+              <RealScore>5</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.05</Min>
+                    <Max>0.05</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.10</Min>
+                    <Max>0.10</Max>
+                  </Range>
+                  <Score>3</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+        </TestTarget>
+        <TestTarget>
+          <Script>增加（减少）砝码，测量钢丝的的拉伸量，并将结果填入下表；根据测量值计算并填写杨氏模量值：</Script>
+          <RealScore>0</RealScore>
+          <Group>
+            <Para StudentVisible="true">
+              <Sn>3645</Sn>
+              <Name>StealWireStretchList</Name>
+              <Script>钢丝伸长量r(单位：cm)</Script>
+              <VarType Count="8">TList</VarType>
+              <RealResult>(砝码质量,钢丝伸长量(加砝码),钢丝伸长量(减砝码),钢丝伸长量(平均值));(0kg,0.00,0.00,0.00);(0.5kg,1.15,1.15,1.15);(1kg,2.30,2.30,2.30);(1.5kg,3.45,3.45,3.45);(2kg,4.61,4.61,4.61);(2.5kg,5.57,5.57,5.57);(3kg,6.90,6.90,6.90);(3.5kg,8.04,8.04,8.04)</RealResult>
+              <StdResult>(砝码质量,钢丝伸长量(加砝码),钢丝伸长量(减砝码),钢丝伸长量(平均值));(0kg,0.00,0.00,0.00);(0.5kg,1.15,1.15,1.15);(1kg,2.30,2.30,2.30);(1.5kg,3.45,3.45,3.45);(2kg,4.61,4.61,4.61);(2.5kg,5.57,5.57,5.57);(3kg,6.90,6.90,6.90);(3.5kg,8.04,8.04,8.04)</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>0</TotalScore>
+              <RealScore>0</RealScore>
+              <Para>
+                <Sn />
+                <Name>INDEX</Name>
+                <Script>砝码质量;0kg;0.5kg;1kg;1.5kg;2kg;2.5kg;3kg;3.5kg</Script>
+                <VarType>double</VarType>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <Sn />
+                <Name>StealWireLength_add</Name>
+                <Script>钢丝伸长量(加砝码)</Script>
+                <VarType>double</VarType>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <Sn />
+                <Name>StealWireLength_dim</Name>
+                <Script>钢丝伸长量(减砝码)</Script>
+                <VarType>double</VarType>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <Sn />
+                <Name>StealWireLength_Average</Name>
+                <Script>钢丝伸长量(平均值)</Script>
+                <VarType>double</VarType>
+                <StdSource>Exp</StdSource>
+              </Para>
+            </Para>
+          </Group>
+        </TestTarget>
+        <TestTarget>
+          <Script>请将钢丝伸长量的平均值分成r0、r1、r2、r3和r4、r5、r6、r7两组，用逐差法计算测得当砝码质量m’=500g时：</Script>
+          <RealScore>18</RealScore>
+          <Group>
+            <Para StudentVisible="true">
+              <Sn>3646</Sn>
+              <Name>AddStealWire</Name>
+              <Script>钢丝伸长量b’(单位：m)</Script>
+              <VarType Count="0">double</VarType>
+              <RealResult>0.0115</RealResult>
+              <StdResult>0.0117</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>10</TotalScore>
+              <RealScore>10</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.05</Min>
+                    <Max>0.05</Max>
+                  </Range>
+                  <Score>10</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.10</Min>
+                    <Max>0.10</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <Para StudentVisible="true">
+              <Sn>3647</Sn>
+              <Name>EModule</Name>
+              <Script>钢丝杨氏模量值E(单位：E11 Pa)</Script>
+              <VarType Count="0">double</VarType>
+              <RealResult>2.038</RealResult>
+              <StdResult>2.001</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>8</TotalScore>
+              <RealScore>8</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.08</Min>
+                    <Max>0.08</Max>
+                  </Range>
+                  <Score>8</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.12</Min>
+                    <Max>0.12</Max>
+                  </Range>
+                  <Score>4</Score>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+        </TestTarget>
+        <TestTarget>
+          <Script>记录数据有效数字的正确性</Script>
+          <RealScore>1</RealScore>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>3648</Sn>
+              <Name>ValidDigits</Name>
+              <Script>记录数据有效数字的正确性(螺旋测微计测量钢丝直径读数保留到小数点后面3位，单位：mm; 用逐差法计算得到的钢丝伸长量b’值保留到小数点后面4位，单位：m)</Script>
+              <VarType Count="0">bool</VarType>
+              <RealResult>true</RealResult>
+              <StdResult>true</StdResult>
+              <StdSource>DataBase</StdSource>
+              <StdResultShowInfo>格式正确</StdResultShowInfo>
+              <TotalScore>1</TotalScore>
+              <RealScore>1</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>1</Score>
+                  <RuleShowInfo>格式正确</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>格式错误</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>格式正确</StudentResultShowInfo>
+            </Para>
+          </Group>
+        </TestTarget>
+      </CheckPoint>
+    </Question>
+  </Content>
+</ExamPaper>

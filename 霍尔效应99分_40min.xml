@@ -1,0 +1,947 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExamPaper>
+  <Title>
+    <Name>霍尔效应</Name>
+    <Id>SIMQUEST_HEXYSY_ZGKXJSDX_V001</Id>
+    <Writer>
+      <Id>出卷人ＩＤ</Id>
+      <Name>出卷人名称</Name>
+    </Writer>
+    <User>
+      <Id>使用者ＩＤ</Id>
+      <Name>使用者姓名</Name>
+      <Time>
+        <MaxTime>考试时间限制</MaxTime>
+        <RealTime>2442</RealTime>
+      </Time>
+    </User>
+    <FinalResult>true</FinalResult>
+  </Title>
+  <Content>
+    <Question Type="OP">
+      <Sn>题目编号003</Sn>
+      <Name>测量霍尔效应实验</Name>
+      <Id>SIMQUEST_HEXYSY_ZGKXJSDX_V001</Id>
+      <Type>实验内容</Type>
+      <Score>
+        <Total>100</Total>
+        <RealScore>99</RealScore>
+      </Score>
+      <Script>
+        <DOC>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="12" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="12" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(1)按霍尔效应实验原理图，正确连线。" TextDecorations="System.Windows.TextDecorationCollection" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(2)调节霍尔元件片使其置于磁场中央。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="12" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="12" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(3)在零磁场下，测量霍尔元件片的不等位电势。" TextDecorations="System.Windows.TextDecorationCollection" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="12" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="12" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(4)保持励磁电流的值不变，改变工作电流的值，测量霍尔电压值。" TextDecorations="System.Windows.TextDecorationCollection" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(5)保持工作电流的值不变，改变励磁电流的值，测量霍尔电压值。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(6)计算霍尔效应系数Rh,霍尔元件的载流子浓度n,霍尔元件的电导率б,霍尔元件的载流子迁移率μ。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(7)相关公式：" TextDecorations="System.Windows.TextDecorationCollection" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="        " TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="霍尔系数" TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="：" TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="Rh=Vh·d/(Is·B）   " TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="                            " TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="载流子浓度" TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="：" TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="n=1/(Rh" TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="·" TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="e)   " TextDecorations="System.Windows.TextDecorationCollection" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="        " TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="材料的电导率" TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="：" TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="σ=Is·L/(V·b·d)   " TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="                         " TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="载流子的迁移率" TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="：" TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="μ=σ" TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="·" TextDecorations="System.Windows.TextDecorationCollection" />
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="Rh  " TextDecorations="System.Windows.TextDecorationCollection" />
+          </Paragraph>
+          <ImageCollection></ImageCollection>
+        </DOC>
+      </Script>
+      <InitialStatus>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="12" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="12" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="实验仪器全部是关闭状态，需要手动连线，实验仪中霍尔元件片规格请查看霍尔元件的详细信息。测试仪使用之前需要调零。" TextDecorations="System.Windows.TextDecorationCollection" />
+            </Paragraph>
+          </DOC>
+        </Script>
+        <ConfigFile>SIMQUEST_HEXYSY_ZGKXJSDX_V001.xml</ConfigFile>
+      </InitialStatus>
+      <KeyPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(1)按霍尔效应实验原理图，正确连线。" TextDecorations="System.Windows.TextDecorationCollection" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(2)调节霍尔元件片使其置于磁场中央。" TextDecorations="System.Windows.TextDecorationCollection" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(3)在零磁场下，测量霍尔元件片的不等位电势。" TextDecorations="System.Windows.TextDecorationCollection" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(4)保持励磁电流的值不变，改变工作电流的值，测量霍尔电压值。" TextDecorations="System.Windows.TextDecorationCollection" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(5)保持工作电流的值不变，改变励磁电流的值，测量霍尔电压值。" TextDecorations="System.Windows.TextDecorationCollection" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(6)计算霍尔效应系数Rh,霍尔元件的载流子浓度n,霍尔元件的电导率б,霍尔元件的载流子迁移率μ。" TextDecorations="System.Windows.TextDecorationCollection" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(7)相关公式：霍尔系数Rh=Vh·d/(Is·B" TextDecorations="System.Windows.TextDecorationCollection" />
+              <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="),载流子浓度n=1/(Rh·e),材料的电导率σ=Is·L/(V·b·d),载流子的迁移率μ=σ·Rh." TextDecorations="System.Windows.TextDecorationCollection" />
+            </Paragraph>
+            <ImageCollection></ImageCollection>
+          </DOC>
+        </Script>
+      </KeyPoint>
+      <CheckPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(1)按霍尔效应实验原理图，正确连线。" TextDecorations="System.Windows.TextDecorationCollection" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(2)调节霍尔元件片使其置于磁场中央。" TextDecorations="System.Windows.TextDecorationCollection" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(3)在零磁场下，测量霍尔元件片的不等位电势。" TextDecorations="System.Windows.TextDecorationCollection" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(4)保持励磁电流的值不变，改变工作电流的值，测量霍尔电压值。" TextDecorations="System.Windows.TextDecorationCollection" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(5)保持工作电流的值不变，改变励磁电流的值，测量霍尔电压值。" TextDecorations="System.Windows.TextDecorationCollection" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(6)计算霍尔效应系数Rh,霍尔元件的载流子浓度n,霍尔元件的电导率б,霍尔元件的载流子迁移率μ。" TextDecorations="System.Windows.TextDecorationCollection" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" TextAlignment="Left" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="(7)相关公式：霍尔系数Rh=Vh·d/(Is·B" TextDecorations="System.Windows.TextDecorationCollection" />
+              <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="),载流子浓度n=1/(Rh·e),材料的电导率σ=Is·L/(V·b·d),载流子的迁移率μ=σ·Rh." TextDecorations="System.Windows.TextDecorationCollection" />
+            </Paragraph>
+            <ImageCollection></ImageCollection>
+          </DOC>
+        </Script>
+        <!--连线   10分-->
+        <TestTarget>
+          <Script>连线</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>6</Sn>
+              <Name>LineConnStatus</Name>
+              <Script>将电路连接好，然后点击按钮保存连线状态。</Script>
+              <VarType>bool</VarType>
+              <RealResult>true</RealResult>
+              <StdResult>true</StdResult>
+              <StdResultShowInfo>连线正确</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>10</TotalScore>
+              <RealScore>10</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <RuleShowInfo>连线正确</RuleShowInfo>
+                  <Score>10</Score>
+                </RightRule>
+                <WrongRule>
+                  <RuleShowInfo>连线错误</RuleShowInfo>
+                  <Score>0</Score>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>连线正确</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>10</RealScore>
+        </TestTarget>
+        <!--霍尔效应电压显示仪调零   5分-->
+        <TestTarget>
+          <Script>霍尔效应显示仪开始电压调到零位</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>2</Sn>
+              <Name>ZeroStart</Name>
+              <VarType>bool</VarType>
+              <Script>霍尔效应显示仪开始电压调到零位</Script>
+              <RealResult>true</RealResult>
+              <StdResult>true</StdResult>
+              <StdResultShowInfo>已经调零</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>5</TotalScore>
+              <RealScore>5</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <RuleShowInfo>已经调零</RuleShowInfo>
+                  <Score>5</Score>
+                </RightRule>
+                <WrongRule>
+                  <RuleShowInfo>没有调零</RuleShowInfo>
+                  <Score>0</Score>
+                </WrongRule>
+              </JudgeRule>
+              <StudentResultShowInfo>已经调零</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>5</RealScore>
+        </TestTarget>
+        <!--测量感应电动势  4分-->
+        <TestTarget>
+          <Script>在零磁场下测量不等位电势Vб的值</Script>
+          <Group>
+            <Para StudentVisible="True">
+              <Sn>6</Sn>
+              <Name>VSigmaShow</Name>
+              <Script>在零磁场下当Is=0.1mA时产生的不等位电势Vб(此处填入绝对值，单位：mV)</Script>
+              <VarType Count="2">TList</VarType>
+              <RealResult>(Is/mA,Is=0.1mA);(V(+Is),14.34);(V(-Is),14.34)</RealResult>
+              <StdResult>(Is/mA,Is=0.1mA);(V(+Is),14.34);(V(-Is),14.34)</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>5</TotalScore>
+              <RealScore>5</RealScore>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>INDEX</Name>
+                <Script>Is/mA</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>DataBase</StdSource>
+                <TotalScore>0</TotalScore>
+                <RealScore>0</RealScore>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>IsShowAll</Name>
+                <Script>Is=0.1mA</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.3</Min>
+                      <Max>0.3</Max>
+                    </Range>
+                    <Score>1.0</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.1</Min>
+                      <Max>0.1</Max>
+                    </Range>
+                    <Score>2.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+            </Para>
+          </Group>
+          <RealScore>5</RealScore>
+        </TestTarget>
+        <!--保持励磁电流，调节工作电流测电压 18分-->
+        <TestTarget>
+          <Script>测量霍尔电压：电路连接成功后，保持电路中的励磁电流Im=0.45A，令工作电流Is从0.5mA增加到4.5mA，每隔0.5mA测量相应的霍尔电压值。</Script>
+          <Group>
+            <Para StudentVisible="true">
+              <Sn>6</Sn>
+              <Name>ImNowShow</Name>
+              <Script>此时励磁电流大小Im(A)</Script>
+              <VarType>Double</VarType>
+              <RealResult>0.45</RealResult>
+              <StdResult>0.45</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>3</TotalScore>
+              <RealScore>3</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.01</Min>
+                    <Max>0.01</Max>
+                  </Range>
+                  <Score>3</Score>
+                  <AnswerShowInfo>原值</AnswerShowInfo>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <Para StudentVisible="True">
+              <Sn>7</Sn>
+              <Name>TmpBShow</Name>
+              <Script>电磁线圈的磁场大小为B(T)</Script>
+              <VarType>double</VarType>
+              <RealResult>0.2264</RealResult>
+              <StdResult>0.22635</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>3.5</TotalScore>
+              <RealScore>3.5</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.01</Min>
+                    <Max>0.01</Max>
+                  </Range>
+                  <Score>3.5</Score>
+                  <AnswerShowInfo>原值</AnswerShowInfo>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <Para StudentVisible="True">
+              <Sn>3</Sn>
+              <Name>BarDiameterList</Name>
+              <Script>保持此时励磁电流的大小不变，调节工作电流每次变化0.5mA,记录显示的电压值(单位：mV)</Script>
+              <VarType Count="4">TList</VarType>
+              <RealResult>(Is/mA,Is=0.5mA,Is=1.0mA,Is=1.5mA,Is=2.0mA,Is=2.5mA,Is=3.0mA,Is=3.5mA,Is=4.0mA,Is=4.5mA);(V(+Im、+Is),-1.59,-3.17,-4.75,-6.34,-7.92,-9.50,-11.08,-12.66,-14.24);(V(-Im、+Is),1.58,3.16,4.74,6.32,7.90,9.48,11.06,12.64,14.22);(V(+Im、-Is),1.58,3.16,4.74,6.33,7.91,9.49,11.07,12.65,14.23);(V(-Im、-Is),-1.57,-3.15,-4.73,-6.31,-7.89,-9.47,-11.05,-12.63,-14.21)</RealResult>
+              <StdResult>(Is/mA,Is=0.5mA,Is=1.0mA,Is=1.5mA,Is=2.0mA,Is=2.5mA,Is=3.0mA,Is=3.5mA,Is=4.0mA,Is=4.5mA);(V(+Im、+Is),-1.58,-3.16,-4.74,-6.32,-7.90,-9.48,-11.06,-12.64,-14.22);(V(-Im、+Is),1.57,3.15,4.73,6.31,7.89,9.47,11.05,12.63,14.21);(V(+Im、-Is),1.58,3.16,4.74,6.32,7.90,9.48,11.06,12.64,14.22);(V(-Im、-Is),-1.59,-3.17,-4.75,-6.33,-7.91,-9.49,-11.07,-12.65,-14.23)</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>18</TotalScore>
+              <RealScore>18</RealScore>
+              <Para StudentVisible="True">
+                <Sn>01</Sn>
+                <Name>INDEX</Name>
+                <Script>Is/mA</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>DataBase</StdSource>
+                <TotalScore>0</TotalScore>
+                <RealScore>0</RealScore>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>02</Sn>
+                <Name>IsNowShow1</Name>
+                <Script>Is=0.5mA</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.03</Min>
+                      <Max>0.03</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>03</Sn>
+                <Name>IsNowShow2</Name>
+                <Script>Is=1.0mA</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.03</Min>
+                      <Max>0.03</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>04</Sn>
+                <Name>IsNowShow3</Name>
+                <Script>Is=1.5mA</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.03</Min>
+                      <Max>0.03</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>05</Sn>
+                <Name>IsNowShow4</Name>
+                <Script>Is=2.0mA</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.03</Min>
+                      <Max>0.03</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>06</Sn>
+                <Name>IsNowShow5</Name>
+                <Script>Is=2.5mA</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.03</Min>
+                      <Max>0.03</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>07</Sn>
+                <Name>IsNowShow6</Name>
+                <Script>Is=3.0mA</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.03</Min>
+                      <Max>0.03</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>08</Sn>
+                <Name>IsNowShow7</Name>
+                <Script>Is=3.5mA</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.03</Min>
+                      <Max>0.03</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>09</Sn>
+                <Name>IsNowShow8</Name>
+                <Script>Is=4.0mA</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.03</Min>
+                      <Max>0.03</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>10</Sn>
+                <Name>IsNowShow9</Name>
+                <Script>Is=4.5mA</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.03</Min>
+                      <Max>0.03</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+            </Para>
+          </Group>
+          <RealScore>24.5</RealScore>
+        </TestTarget>
+        <!--保持工作电流不变，调节励磁电流测电压 18分-->
+        <TestTarget>
+          <Script>测量霍尔电压：电路连接成功后，保持电路中的工作电流Is=4.5mA，令励磁电流Im从0.05A增加到0.45A，每隔0.05A测量相应的霍尔电压值。</Script>
+          <Group>
+            <Para StudentVisible="True">
+              <Sn>4</Sn>
+              <Name>IsNowShow</Name>
+              <Script>此时的工作电流大小为Is(mA)</Script>
+              <VarType>Double</VarType>
+              <RealResult>4.5</RealResult>
+              <StdResult>4.5</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>3</TotalScore>
+              <RealScore>3</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.01</Min>
+                    <Max>0.01</Max>
+                  </Range>
+                  <Score>3</Score>
+                  <AnswerShowInfo>原值</AnswerShowInfo>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <Para StudentVisible="True">
+              <Sn>5</Sn>
+              <Name>BarDiameterList</Name>
+              <Script>保持此时工作电流的大小不变，调节励磁电流每次变化0.05A，记录显示的电压值(单位：mV)</Script>
+              <VarType Count="5">TList</VarType>
+              <RealResult>(Im/A,Im=0.05A,Im=0.10A,Im=0.15A,Im=0.20A,Im=0.25A,Im=0.30A,Im=0.35A,Im=0.40A,Im=0.45A);(V(+Im、+Is),-1.47,-3.06,-4.66,-6.26,-7.85,-9.44,-11.04,-12.64,-14.24);(V(-Im、+Is),1.46,3.06,4.65,6.25,7.84,9.44,11.03,12.62,14.22);(V(+Im、-Is),1.46,3.05,4.65,6.25,7.84,9.44,11.03,12.63,14.23);(V(-Im、-Is),-1.45,-3.05,-4.63,-6.24,-7.83,-9.43,-11.02,-12.61,-14.21);(B(T),0.02515 ,0.05030 ,0.07545 ,0.10060 ,0.12575 ,0.15090 ,0.17605 ,0.20120 ,0.22635 )</RealResult>
+              <StdResult>(Im/A,Im=0.05A,Im=0.10A,Im=0.15A,Im=0.20A,Im=0.25A,Im=0.30A,Im=0.35A,Im=0.40A,Im=0.45A);(V(+Im、+Is),-1.47,-3.06,-4.66,-6.25,-7.85,-9.44,-11.04,-12.63,-14.22);(V(-Im、+Is),1.46,3.05,4.65,6.24,7.84,9.43,11.03,12.62,14.21);(V(+Im、-Is),1.45,3.05,4.64,6.24,7.84,9.43,11.03,12.63,14.22);(V(-Im、-Is),-1.46,-3.06,-4.65,-6.25,-7.85,-9.44,-11.04,-12.64,-14.23);(B(T),0.02515,0.05030,0.07545,0.10060,0.12575,0.15090,0.17605,0.20120,0.22635)</StdResult>
+              <StdSource>Exp</StdSource>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <TotalScore>22.5</TotalScore>
+              <RealScore>22.5</RealScore>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>INDEX</Name>
+                <Script>Im/A</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdSource>DataBase</StdSource>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>ImNowShow1</Name>
+                <Script>Im=0.05A</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.03</Min>
+                      <Max>0.03</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>ImNowShow2</Name>
+                <Script>Im=0.10A</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.03</Min>
+                      <Max>0.03</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>ImNowShow3</Name>
+                <Script>Im=0.15A</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.03</Min>
+                      <Max>0.03</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>ImNowShow4</Name>
+                <Script>Im=0.20A</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.03</Min>
+                      <Max>0.03</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>ImNowShow5</Name>
+                <Script>Im=0.25A</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.03</Min>
+                      <Max>0.03</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>ImNowShow6</Name>
+                <Script>Im=0.30A</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.03</Min>
+                      <Max>0.03</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>ImNowShow7</Name>
+                <Script>Im=0.35A</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.03</Min>
+                      <Max>0.03</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>ImNowShow8</Name>
+                <Script>Im=0.40A</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.03</Min>
+                      <Max>0.03</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para StudentVisible="True">
+                <Sn>00</Sn>
+                <Name>ImNowShow9</Name>
+                <Script>Im=0.45A</Script>
+                <VarType>double</VarType>
+                <RealResult></RealResult>
+                <StdResult></StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.03</Min>
+                      <Max>0.03</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+            </Para>
+          </Group>
+          <RealScore>25.5</RealScore>
+        </TestTarget>
+        <!--计算霍尔效应实验的相关参数值  45分-->
+        <TestTarget>
+          <Script>计算霍尔效应试验的相关值</Script>
+          <Group>
+            <Para StudentVisible="True">
+              <Sn>8</Sn>
+              <Name>TmpRh</Name>
+              <Script>通过以上测量值计算可得到霍尔系数Rh(m^3/C)</Script>
+              <VarType>double</VarType>
+              <RealResult>0.00704</RealResult>
+              <StdResult>0.00710</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>6</TotalScore>
+              <RealScore>6</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.02</Min>
+                    <Max>0.02</Max>
+                  </Range>
+                  <AnswerShowInfo>原值</AnswerShowInfo>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  <Score>6</Score>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.05</Min>
+                    <Max>0.05</Max>
+                  </Range>
+                  <AnswerShowInfo>原值</AnswerShowInfo>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  <Score>3</Score>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <Para StudentVisible="True">
+              <Sn>9</Sn>
+              <Name>TmpTypeShow</Name>
+              <Script>通过以上测量值计算可得到霍尔元件的载流子类型(*型)(请填P或N)</Script>
+              <VarType>string</VarType>
+              <RealResult>P</RealResult>
+              <StdResult>P</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>6</TotalScore>
+              <RealScore>6</RealScore>
+              <JudgeRule>
+                - <RightRule><RuleShowInfo>载流子类型正确</RuleShowInfo><Score>6</Score></RightRule>
+                - <WrongRule><RuleShowInfo>载流子类型错误</RuleShowInfo><Score>0</Score></WrongRule></JudgeRule>
+            </Para>
+            <Para StudentVisible="True">
+              <Sn>10</Sn>
+              <Name>TmpNongDu</Name>
+              <Script>通过以上测量值计算可得到霍尔元件的载流子浓度n(×10^21/m^3)</Script>
+              <VarType>Double</VarType>
+              <RealResult>1.129</RealResult>
+              <StdResult>0.879</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>6</TotalScore>
+              <RealScore>5</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.02</Min>
+                    <Max>0.02</Max>
+                  </Range>
+                  <AnswerShowInfo>原值</AnswerShowInfo>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  <Score>6</Score>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-0.08</Min>
+                    <Max>0.08</Max>
+                  </Range>
+                  <AnswerShowInfo>原值</AnswerShowInfo>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  <Score>3</Score>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <Para StudentVisible="True">
+              <Sn>11</Sn>
+              <Name>TmpSigma</Name>
+              <Script>通过以上测量值计算可得到霍尔元件的电导率б(1/(Ω·m))</Script>
+              <VarType>Double</VarType>
+              <RealResult>0.886</RealResult>
+              <StdResult>10.38</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>6</TotalScore>
+              <RealScore>6</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.02</Min>
+                    <Max>0.02</Max>
+                  </Range>
+                  <AnswerShowInfo>原值</AnswerShowInfo>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  <Score>6</Score>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.05</Min>
+                    <Max>0.05</Max>
+                  </Range>
+                  <AnswerShowInfo>原值</AnswerShowInfo>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  <Score>3</Score>
+                </Rule>
+              </JudgeRule>
+            </Para>
+            <Para StudentVisible="True">
+              <Sn>12</Sn>
+              <Name>TmpQianYi</Name>
+              <Script>通过以上测量值计算可得到霍尔元件的载流子迁移率μ(m^2/(V·s))</Script>
+              <VarType>Double</VarType>
+              <RealResult>0.073</RealResult>
+              <StdResult>0.074</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>6</TotalScore>
+              <RealScore>6</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.02</Min>
+                    <Max>0.02</Max>
+                  </Range>
+                  <AnswerShowInfo>原值</AnswerShowInfo>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  <Score>6</Score>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>百分比</Type>
+                    <Min>-0.05</Min>
+                    <Max>0.05</Max>
+                  </Range>
+                  <AnswerShowInfo>原值</AnswerShowInfo>
+                  <RuleShowInfo>实际测量偏差</RuleShowInfo>
+                  <Score>3</Score>
+                </Rule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>18</RealScore>
+        </TestTarget>
+      </CheckPoint>
+    </Question>
+  </Content>
+</ExamPaper>

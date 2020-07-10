@@ -1,0 +1,1174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExamPaper>
+  <Title>
+    <Name>拉曼光谱实验</Name>
+    <Id>SIMEXP_LMGPSY_EFATXB_V001</Id>
+    <User>
+      <Id>使用者ＩＤ</Id>
+      <Name>使用者姓名</Name>
+      <Time>
+        <MaxTime>考试时间限制</MaxTime>
+        <RealTime>6953</RealTime>
+      </Time>
+    </User>
+    <FinalResult>true</FinalResult>
+  </Title>
+  <Content>
+    <Question Type="OP">
+      <Sn>题目编号1</Sn>
+      <Name>拉曼光谱实验</Name>
+      <Id>SIMEXP_LMGPSY_EFATXB_V001</Id>
+      <Type>实验内容</Type>
+      <Score>
+        <Total>50</Total>
+        <RealScore>42</RealScore>
+      </Score>
+      <Script>
+        <DOC>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="拉曼光谱实验。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="                       " TextDecorations="" />
+            <Inline Type="Image" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" TextDecorations="" ImageWidth="350" ImageHeight="354" ImageMargin="0,0,0,0" ImageSource="ImageData:0" />
+          </Paragraph>
+          <ImageCollection>
+            <ImageData Key="0"><![CDATA[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]]></ImageData>
+          </ImageCollection>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）分别打开激光器的电源开关和光谱仪开关。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）选择待测样品，并调节光谱仪样品支架。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）调节光谱仪外光路系统，使散射光能顺利进入单色仪。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）完成光路调节后，闭合光谱仪箱体" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）进行阈值分析扫描，选择适当的阈值。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）选择合适的光谱扫描参数，扫描光谱线，并根据需要进行检峰。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（7）记录实验数据，根据扫描结果完成实验数据表格。" TextDecorations="" />
+          </Paragraph>
+        </DOC>
+      </Script>
+      <InitialStatus>
+        <Script>
+          仪器：显示器、电脑主机、拉曼光谱仪
+          仪器的初始状态：所有仪器都摆放在实验桌上，不允许拖动和删除。
+        </Script>
+        <ConfigFile>SIMEXP_LMGPSY_EFATXB_V001.xml</ConfigFile>
+      </InitialStatus>
+      <KeyPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="拉曼光谱实验。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）分别打开激光器的电源开关和光谱仪开关。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）选择待测样品，并调节光谱仪样品支架。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）调节光谱仪外光路系统，使散射光能顺利进入单色仪。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）完成光路调节后，闭合光谱仪箱体" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）进行阈值分析扫描，选择适当的阈值。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）选择合适的光谱扫描参数，扫描光谱线，并根据需要进行检峰。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（7）记录实验数据，根据扫描结果完成实验数据表格。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+      </KeyPoint>
+      <CheckPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="拉曼光谱实验。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）分别打开激光器的电源开关和光谱仪开关。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）选择待测样品，并调节光谱仪样品支架。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）调节光谱仪外光路系统，使散射光能顺利进入单色仪。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）完成光路调节后，闭合光谱仪箱体" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）进行阈值分析扫描，选择适当的阈值。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）选择合适的光谱扫描参数，扫描光谱线，并根据需要进行检峰。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（7）记录实验数据，根据扫描结果完成实验数据表格。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+        <!--1、调节样品管支架   5分-->
+        <TestTarget>
+          <Script>调节样品台上的微调螺钉使聚焦后的激光束位于样品管的中心</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>YPGTJStatusC1</Name>
+              <VarType>double</VarType>
+              <Script>激光光束的腰部是否位于样品管中心</Script>
+              <RealResult>0.2</RealResult>
+              <StdResult>0.0</StdResult>
+              <StdResultShowInfo>激光光束的腰部恰好位于样品管中心</StdResultShowInfo>
+              <StdSource>DataBase</StdSource>
+              <TotalScore>5</TotalScore>
+              <RealScore>5</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.0</Min>
+                    <Max>0.2</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>激光光束的腰部恰好位于样品管中心</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.2</Min>
+                    <Max>0.5</Max>
+                  </Range>
+                  <Score>2.5</Score>
+                  <RuleShowInfo>激光光束的腰部与样品管中心之间偏离较小</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.5</Min>
+                    <Max>1.0</Max>
+                  </Range>
+                  <Score>0</Score>
+                  <RuleShowInfo>激光光束的腰部与样品管中心之间偏离较大</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+              <StudentResultShowInfo>激光光束的腰部恰好位于样品管中心</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>5</RealScore>
+        </TestTarget>
+        <!--2、光谱仪的散光系统是否完成调节   5分-->
+        <TestTarget>
+          <Script>调节光谱仪散射系统光路</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>SGXTStatusC1</Name>
+              <VarType>double</VarType>
+              <Script>光谱仪的散光系统是否完成调节</Script>
+              <RealResult>0.2</RealResult>
+              <StdResult>0.0</StdResult>
+              <StdResultShowInfo>完成调节</StdResultShowInfo>
+              <StdSource>DataBase</StdSource>
+              <TotalScore>5</TotalScore>
+              <RealScore>5</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.0</Min>
+                    <Max>0.2</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>散射光路完成调节</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.2</Min>
+                    <Max>0.5</Max>
+                  </Range>
+                  <Score>2.5</Score>
+                  <RuleShowInfo>散射光路调节稍有偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.5</Min>
+                    <Max>1.0</Max>
+                  </Range>
+                  <Score>0</Score>
+                  <RuleShowInfo>散射光路调节偏差较大</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+              <StudentResultShowInfo>散射光路完成调节</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>5</RealScore>
+        </TestTarget>
+        <!--3、光谱仪的聚光系统是否完成调节   5分-->
+        <TestTarget>
+          <Script>调节光谱仪外光路,使光谱仪的反射凹面镜位置适合接收集到更多的散射光</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>JGXTStatusC1</Name>
+              <VarType>double</VarType>
+              <Script>光谱仪的反射凹面镜位置调节是否合适,以便于接收到更多的散射光</Script>
+              <RealResult>0.7</RealResult>
+              <StdResult>0.0</StdResult>
+              <StdResultShowInfo>光谱仪的反射凹面镜位置合适</StdResultShowInfo>
+              <StdSource>DataBase</StdSource>
+              <TotalScore>5</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.0</Min>
+                    <Max>0.2</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>光谱仪的反射凹面镜位置合适</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.2</Min>
+                    <Max>0.5</Max>
+                  </Range>
+                  <Score>2.5</Score>
+                  <RuleShowInfo>光谱仪的反射凹面镜位置稍有偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.5</Min>
+                    <Max>1.0</Max>
+                  </Range>
+                  <Score>0</Score>
+                  <RuleShowInfo>光谱仪的反射凹面镜位置偏离较大</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+              <StudentResultShowInfo>光谱仪的反射凹面镜位置偏离较大</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <!--4、光谱仪的接收光系统是否完成调节   5分-->
+        <TestTarget>
+          <Script>调节聚光镜调节架上的调节螺丝，使散射光聚焦后所成的光斑清晰并进入摄谱仪狭缝</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>JSGXTStatusC1</Name>
+              <VarType>double</VarType>
+              <Script>聚光镜调节架上的调节螺丝是否完成调节,使使散射光聚焦后所成的光斑清晰并进入摄谱仪狭缝</Script>
+              <RealResult>0.3</RealResult>
+              <StdResult>0.0</StdResult>
+              <StdResultShowInfo>聚光镜调节架上的螺丝完成调节</StdResultShowInfo>
+              <StdSource>DataBase</StdSource>
+              <TotalScore>5</TotalScore>
+              <RealScore>2.5</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.0</Min>
+                    <Max>0.2</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>聚光镜调节架上的螺丝完成调节</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.2</Min>
+                    <Max>0.5</Max>
+                  </Range>
+                  <Score>2.5</Score>
+                  <RuleShowInfo>聚光镜调节架上的螺丝调节稍有偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.5</Min>
+                    <Max>1.0</Max>
+                  </Range>
+                  <Score>0</Score>
+                  <RuleShowInfo>聚光镜调节架上的螺丝调节偏差较大</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+              <StudentResultShowInfo>聚光镜调节架上的螺丝调节稍有偏差</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>2.5</RealScore>
+        </TestTarget>
+        <!--5、光谱仪的狭缝宽度选择是否合适   5分-->
+        <TestTarget>
+          <Script>调节摄谱仪的入射狭缝宽度,使进入摄谱仪狭缝的光斑强度合适,并且杂散光最少</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>XFWidthStatusC1</Name>
+              <VarType>double</VarType>
+              <Script>摄谱仪的入射狭缝宽度调节是否合适</Script>
+              <RealResult>0.9</RealResult>
+              <StdResult>1.0</StdResult>
+              <StdResultShowInfo>狭缝宽度合适</StdResultShowInfo>
+              <StdSource>DataBase</StdSource>
+              <TotalScore>5</TotalScore>
+              <RealScore>5</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-0.4</Min>
+                    <Max>-0.0</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>狭缝宽度合适</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-0.8</Min>
+                    <Max>-0.4</Max>
+                  </Range>
+                  <Score>2.5</Score>
+                  <RuleShowInfo>狭缝宽度稍有偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-1.0</Min>
+                    <Max>-0.8</Max>
+                  </Range>
+                  <Score>0</Score>
+                  <RuleShowInfo>狭缝宽度不合适</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+              <StudentResultShowInfo>狭缝宽度合适</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>5</RealScore>
+        </TestTarget>
+        <!--6、扫描时箱体是否闭合   5分-->
+        <TestTarget>
+          <Script>扫描时箱体是否闭合</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>XTBHStatusC1</Name>
+              <VarType>bool</VarType>
+              <Script>光谱扫描时箱体需要闭合</Script>
+              <RealResult>箱体闭合</RealResult>
+              <StdResult>箱体闭合</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>5</TotalScore>
+              <RealScore>5</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>5</Score>
+                  <RuleShowInfo>箱体闭合</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>没有闭合</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>5</RealScore>
+        </TestTarget>
+        <!--7、扫描阈值选择是否合适   5分-->
+        <TestTarget>
+          <Script>扫描阈值选择是否合适</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>SMYZStatusC1</Name>
+              <VarType>bool</VarType>
+              <Script>扫描阈值选择合适</Script>
+              <RealResult>合适</RealResult>
+              <StdResult>合适</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>5</TotalScore>
+              <RealScore>5</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>5</Score>
+                  <RuleShowInfo>合适</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>不合适</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>5</RealScore>
+        </TestTarget>
+        <!--8、扫描四氯化碳的特征谱线   15分-->
+        <TestTarget>
+          <Script>将测量数据填入下列表格内。</Script>
+          <Group>
+            <Para StudentVisible="True">
+              <sn>11</sn>
+              <Name>SLHTPuXianC1</Name>
+              <VarType Count="10">TList</VarType>
+              <Script>选择四氯化碳样品进行测量，并将四氯化碳的10个特征峰,按照波长由小到大的顺序填入下列表格内,根据公式计算出特征峰的波数差，记录实验数据：</Script>
+              <RealResult>(谱线编号,特征峰波长（nm）,波数差（cm-1）,峰高);(第1条,510.6,787.8,38.5);(第2条,511.2,764.8,38.9);(第3条,519.3,459.7,1119.2);(第4条,523.0,323.5,828.1);(第5条,525.9,74.5,1234.2);(第6条,538.2,-216.5,2308.2);(第7条,541.3,-323.0,2303.0);(第8条,545.3,-458.5,5941.8);(第9条,554.5,-762.7,421.0);(第10条,555.3,-788.7,414.4)</RealResult>
+              <StdResult>(谱线编号,特征峰波长（nm）,波数差（cm-1）,峰高);(第1条,510.5,790.2,39.5);(第2条,511.3,762.2,39.7);(第3条,519.3,459.7,1200.1);(第4条,523.0,324.0,805.2);(第5条,525.9,218.7,1152.3);(第6条,538.2,-218.1,2398.7);(第7条,541.3,-324.5,2493.6);(第8条,545.3,-459.5,6555.0);(第9条,554.5,-762.2,452.7);(第10条,555.3,-790.2,450.7)</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>15</TotalScore>
+              <RealScore>14.5</RealScore>
+              <Para>
+                <Sn>0</Sn>
+                <Name>INDEX</Name>
+                <Script>谱线编号;第1条;第2条;第3条;第4条;第5条;第6条;第7条;第8条;第9条;第10条</Script>
+                <VarType>int</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>BoChangC1</Name>
+                <Script>特征峰波长（nm）</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-2.0</Min>
+                      <Max>2.0</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>2</sn>
+                <Name>BoShuChaC1</Name>
+                <Script>波数差（cm-1）</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-3.0</Min>
+                      <Max>3.0</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>3</sn>
+                <Name>FengGaoC1</Name>
+                <Script>峰高</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.15</Min>
+                      <Max>0.15</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+            </Para>
+          </Group>
+          <RealScore>14.5</RealScore>
+        </TestTarget>
+      </CheckPoint>
+    </Question>
+    <Question Type="OP">
+      <Sn>题目编号2</Sn>
+      <Name>拉曼散射谱退偏度的研究</Name>
+      <Id>SIMEXP_LMGPSY_EFATXB_V002</Id>
+      <Type>实验内容</Type>
+      <Score>
+        <Total>50</Total>
+        <RealScore>24.5</RealScore>
+      </Score>
+      <Script>
+        <DOC>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="拉曼散射谱退偏度的研究。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="                        " TextDecorations="" />
+            <Inline Type="Image" Name="" FontFamily="Arial,Simsun" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" TextDecorations="" ImageWidth="526" ImageHeight="346" ImageMargin="0,0,0,0" ImageSource="ImageData:0" />
+          </Paragraph>
+          <ImageCollection>
+            <ImageData Key="0"><![CDATA[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BJJZQS3a3MkYeRQApPIXBznHr70AU9WAtbq01HoI5BFKxYKBG/GTnsG2mgDVoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKAKWr/8gyb8P5igC7QAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAEVxAlxA8MgO1xg46j6UAVkTUVRVaa1cgYLGNuf1oAdt1H+/af98N/jQBFb2Myao95K8QLxeWyxKQGweCeeo5H40AaNABQBTmtphdme1eNS6bZFdSQ2Oh479f09KADbqP9+0/74b/ABoAiurW8u7aSCdrRo5FKsNjf40AWrWJ4LSGKRzI6IFZz/EQOtAE9ABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFAFLV/wDkGTfh/MUAXaACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgClq//IMm/D+YoAu0AFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQBg3dxP8Ab7hXeX7OJhEAswjUfu1bk4yOp5zQAzV75otGszDK9sZs/KZRv2hGP3m99vP+NAE9td3M+qW6B02rE4dTkf8API5I6Zw3H1oAo3N/cTT3MccpKtcLHtt5dxA2NwMAkZC9h1H1oA1tFnmnsiZ95kRyrM/BJ+m0YH4UAaVABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAUtX/AOQZN+H8xQBdoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgAoAKACgDPGmBgUmmMkTsXkXGDI5PUn0HAA/wBkUAE+nyz2xgluiyfMBuTqMcbvXHJ9/wCYBMloVuoZfMysMJiC7euSuTn/AICKAIJtJiubl3uG8yF3VzCyKV3AYBzjP+frkAl06y+wQGEOrID8irGE2j8Op96ALlABQAUAFABQAUAFABQAUAFABQAUAFABQAUAFABQAUAUtX/5Bk34fzFAGN/at7/z2/8AHF/woAP7Vvf+e3/ji/4UAH9q3v8Az2/8cX/CgA/tW9/57f8Aji/4UAH9q3v/AD2/8cX/AAoAP7Vvf+e3/ji/4UAH9q3v/Pb/AMcX/CgA/tW9/wCe3/ji/wCFAB/at7/z2/8AHF/woAP7Vvf+e3/ji/4UAH9q3v8Az2/8cX/CgA/tW9/57f8Aji/4UAH9q3v/AD2/8cX/AAoAP7Vvf+e3/ji/4UAH9q3v/Pb/AMcX/CgA/tW9/wCe3/ji/wCFAB/at7/z2/8AHF/woAP7Vvf+e3/ji/4UAH9q3v8Az2/8cX/CgA/tW9/57f8Aji/4UAH9q3v/AD2/8cX/AAoAP7Vvf+e3/ji/4UAH9q3v/Pb/AMcX/CgA/tW9/wCe3/ji/wCFAB/at7/z2/8AHF/woAP7Vvf+e3/ji/4UAH9q3v8Az2/8cX/CgA/tW9/57f8Aji/4UAH9q3v/AD2/8cX/AAoAP7Vvf+e3/ji/4UAH9q3v/Pb/AMcX/CgA/tW9/wCe3/ji/wCFAB/at7/z2/8AHF/woAP7Vvf+e3/ji/4UAH9q3v8Az2/8cX/CgA/tW9/57f8Aji/4UAH9q3v/AD2/8cX/AAoAP7Vvf+e3/ji/4UAH9q3v/Pb/AMcX/CgA/tW9/wCe3/ji/wCFAB/at7/z2/8AHF/woAP7Vvf+e3/ji/4UAH9q3v8Az2/8cX/CgA/tW9/57f8Aji/4UAH9q3v/AD2/8cX/AAoAP7Vvf+e3/ji/4UAH9q3v/Pb/AMcX/CgA/tW9/wCe3/ji/wCFAB/at7/z2/8AHF/woAP7Vvf+e3/ji/4UAH9q3v8Az2/8cX/CgA/tW9/57f8Aji/4UAH9q3v/AD2/8cX/AAoAP7Vvf+e3/ji/4UAH9q3v/Pb/AMcX/CgA/tW9/wCe3/ji/wCFAB/at7/z2/8AHF/woAP7Vvf+e3/ji/4UAH9q3v8Az2/8cX/CgA/tW9/57f8Aji/4UAH9q3v/AD2/8cX/AAoAP7Vvf+e3/ji/4UAH9q3v/Pb/AMcX/CgA/tW9/wCe3/ji/wCFAB/at7/z2/8AHF/woAZNqF1PEY5ZdyN1G0D+lAD/2Q==]]></ImageData>
+          </ImageCollection>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）分别打开激光器的电源开关和光谱仪开关。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）选择待测样品，并调节光谱仪样品支架。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）调节光谱仪外光路系统，使散射光能顺利进入单色仪。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）将1/2玻片放置到入射孔支架上，并将检偏器也放置出射孔支架上，分别调节合适的角度。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）完成光路调节后，闭合光谱仪箱体。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）进行阈值分析扫描，选择适当的阈值。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（7）选择合适的光谱扫描参数，扫描光谱线，并根据需要进行检峰。" TextDecorations="" />
+          </Paragraph>
+          <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+            <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（8）记录数据。" TextDecorations="" />
+          </Paragraph>
+        </DOC>
+      </Script>
+      <InitialStatus>
+        <Script>
+          仪器：显示器、电脑主机、拉曼光谱仪
+          仪器的初始状态：所有仪器都摆放在试验桌上，允许拖动和删除。
+        </Script>
+        <ConfigFile>SIMEXP_LMGPSY_EFATXB_V002.xml</ConfigFile>
+      </InitialStatus>
+      <KeyPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="拉曼散射谱退偏度的研究。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）分别打开激光器的电源开关和光谱仪开关。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）选择待测样品，并调节光谱仪样品支架。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）调节光谱仪外光路系统，使散射光能顺利进入单色仪。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）将1/2玻片放置到入射孔支架上，并将检偏器也放置出射孔支架上，分别调节合适的角度。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）完成光路调节后，闭合光谱仪箱体。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）进行阈值分析扫描，选择适当的阈值。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（7）选择合适的光谱扫描参数，扫描光谱线，并根据需要进行检峰。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（8）记录数据。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+      </KeyPoint>
+      <CheckPoint>
+        <Script>
+          <DOC>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="拉曼散射谱退偏度的研究。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（1）分别打开激光器的电源开关和光谱仪开关。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（2）选择待测样品，并调节光谱仪样品支架。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（3）调节光谱仪外光路系统，使散射光能顺利进入单色仪。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（4）将1/2玻片放置到入射孔支架上，并将检偏器也放置出射孔支架上，分别调节合适的角度。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（5）完成光路调节后，闭合光谱仪箱体。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（6）进行阈值分析扫描，选择适当的阈值。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（7）选择合适的光谱扫描参数，扫描光谱线，并根据需要进行检峰。" TextDecorations="" />
+            </Paragraph>
+            <Paragraph Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000">
+              <Inline Type="Run" Name="" FontFamily="Portable User Interface" FontSize="13" FontStretch="Normal" FontStyle="Normal" FontWeight="Normal" Foreground="#FF000000" Text="（8）记录数据。" TextDecorations="" />
+            </Paragraph>
+          </DOC>
+        </Script>
+        <!--1、调节样品管支架   5分-->
+        <TestTarget>
+          <Script>调节样品台上的微调螺钉使聚焦后的激光束位于样品管的中心</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>YPGTJStatusC2</Name>
+              <VarType>double</VarType>
+              <Script>激光光束的腰部是否位于样品管中心</Script>
+              <RealResult>0.2</RealResult>
+              <StdResult>0.0</StdResult>
+              <StdResultShowInfo>激光光束的腰部恰好位于样品管中心</StdResultShowInfo>
+              <StdSource>DataBase</StdSource>
+              <TotalScore>5</TotalScore>
+              <RealScore>5</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.0</Min>
+                    <Max>0.2</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>激光光束的腰部恰好位于样品管中心</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.2</Min>
+                    <Max>0.5</Max>
+                  </Range>
+                  <Score>2.5</Score>
+                  <RuleShowInfo>激光光束的腰部与样品管中心之间偏离较小</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.5</Min>
+                    <Max>1.0</Max>
+                  </Range>
+                  <Score>0</Score>
+                  <RuleShowInfo>激光光束的腰部与样品管中心之间偏离较大</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+              <StudentResultShowInfo>激光光束的腰部恰好位于样品管中心</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>5</RealScore>
+        </TestTarget>
+        <!--2、光谱仪的散光系统是否完成调节   5分-->
+        <TestTarget>
+          <Script>调节光谱仪散射系统光路</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>SGXTStatusC2</Name>
+              <VarType>double</VarType>
+              <Script>光谱仪的散光系统是否完成调节</Script>
+              <RealResult>0.2</RealResult>
+              <StdResult>0.0</StdResult>
+              <StdResultShowInfo>完成调节</StdResultShowInfo>
+              <StdSource>DataBase</StdSource>
+              <TotalScore>5</TotalScore>
+              <RealScore>5</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.0</Min>
+                    <Max>0.2</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>散射光路完成调节</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.2</Min>
+                    <Max>0.5</Max>
+                  </Range>
+                  <Score>2.5</Score>
+                  <RuleShowInfo>散射光路调节稍有偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.5</Min>
+                    <Max>1.0</Max>
+                  </Range>
+                  <Score>0</Score>
+                  <RuleShowInfo>散射光路调节偏差较大</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+              <StudentResultShowInfo>散射光路完成调节</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>5</RealScore>
+        </TestTarget>
+        <!--3、光谱仪的聚光系统是否完成调节   5分-->
+        <TestTarget>
+          <Script>调节光谱仪外光路,使光谱仪的反射凹面镜位置适合接收集到更多的散射光</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>JGXTStatusC2</Name>
+              <VarType>double</VarType>
+              <Script>光谱仪的反射凹面镜位置调节是否合适,以便于接收到更多的散射光</Script>
+              <RealResult>0.9</RealResult>
+              <StdResult>0.0</StdResult>
+              <StdResultShowInfo>光谱仪的反射凹面镜位置合适</StdResultShowInfo>
+              <StdSource>DataBase</StdSource>
+              <TotalScore>5</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.0</Min>
+                    <Max>0.2</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>光谱仪的反射凹面镜位置合适</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.2</Min>
+                    <Max>0.5</Max>
+                  </Range>
+                  <Score>2.5</Score>
+                  <RuleShowInfo>光谱仪的反射凹面镜位置稍有偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.5</Min>
+                    <Max>1.0</Max>
+                  </Range>
+                  <Score>0</Score>
+                  <RuleShowInfo>光谱仪的反射凹面镜位置偏离较大</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+              <StudentResultShowInfo>光谱仪的反射凹面镜位置偏离较大</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <!--4、光谱仪的接收光系统是否完成调节   5分-->
+        <TestTarget>
+          <Script>调节聚光镜调节架上的调节螺丝，使散射光聚焦后所成的光斑清晰并进入摄谱仪狭缝</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>JSGXTStatusC2</Name>
+              <VarType>double</VarType>
+              <Script>聚光镜调节架上的调节螺丝是否完成调节,使使散射光聚焦后所成的光斑清晰并进入摄谱仪狭缝</Script>
+              <RealResult>0.6</RealResult>
+              <StdResult>0.0</StdResult>
+              <StdResultShowInfo>聚光镜调节架上的螺丝完成调节</StdResultShowInfo>
+              <StdSource>DataBase</StdSource>
+              <TotalScore>5</TotalScore>
+              <RealScore>0</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.0</Min>
+                    <Max>0.2</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>聚光镜调节架上的螺丝完成调节</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.2</Min>
+                    <Max>0.5</Max>
+                  </Range>
+                  <Score>2.5</Score>
+                  <RuleShowInfo>聚光镜调节架上的螺丝调节稍有偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>0.5</Min>
+                    <Max>1.0</Max>
+                  </Range>
+                  <Score>0</Score>
+                  <RuleShowInfo>聚光镜调节架上的螺丝调节偏差较大</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+              <StudentResultShowInfo>聚光镜调节架上的螺丝调节偏差较大</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>0</RealScore>
+        </TestTarget>
+        <!--5、光谱仪的狭缝宽度选择是否合适   5分-->
+        <TestTarget>
+          <Script>调节摄谱仪的入射狭缝宽度,使进入摄谱仪狭缝的光斑强度合适,并且杂散光最少</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>XFWidthStatusC2</Name>
+              <VarType>double</VarType>
+              <Script>摄谱仪的入射狭缝宽度调节是否合适</Script>
+              <RealResult>0.7</RealResult>
+              <StdResult>1.0</StdResult>
+              <StdResultShowInfo>狭缝宽度合适</StdResultShowInfo>
+              <StdSource>DataBase</StdSource>
+              <TotalScore>5</TotalScore>
+              <RealScore>5</RealScore>
+              <JudgeRule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-0.4</Min>
+                    <Max>-0.0</Max>
+                  </Range>
+                  <Score>5</Score>
+                  <RuleShowInfo>狭缝宽度合适</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-0.8</Min>
+                    <Max>-0.4</Max>
+                  </Range>
+                  <Score>2.5</Score>
+                  <RuleShowInfo>狭缝宽度稍有偏差</RuleShowInfo>
+                </Rule>
+                <Rule>
+                  <StdValue>1</StdValue>
+                  <Range>
+                    <Type>绝对值</Type>
+                    <Min>-1.0</Min>
+                    <Max>-0.8</Max>
+                  </Range>
+                  <Score>0</Score>
+                  <RuleShowInfo>狭缝宽度不合适</RuleShowInfo>
+                </Rule>
+              </JudgeRule>
+              <StudentResultShowInfo>狭缝宽度合适</StudentResultShowInfo>
+            </Para>
+          </Group>
+          <RealScore>5</RealScore>
+        </TestTarget>
+        <!--6、扫描时箱体是否闭合   2分-->
+        <TestTarget>
+          <Script>扫描时箱体是否闭合</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>XTBHStatusC2</Name>
+              <VarType>bool</VarType>
+              <Script>光谱扫描时箱体需要闭合</Script>
+              <RealResult>箱体闭合</RealResult>
+              <StdResult>箱体闭合</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>2</TotalScore>
+              <RealScore>2</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>2</Score>
+                  <RuleShowInfo>箱体闭合</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>没有闭合</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>2</RealScore>
+        </TestTarget>
+        <!--7、扫描阈值选择是否合适   3分-->
+        <TestTarget>
+          <Script>扫描阈值选择是否合适</Script>
+          <Group>
+            <Para StudentVisible="false">
+              <Sn>1</Sn>
+              <Name>SMYZStatusC2</Name>
+              <VarType>bool</VarType>
+              <Script>扫描阈值选择合适</Script>
+              <RealResult>合适</RealResult>
+              <StdResult>合适</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>3</TotalScore>
+              <RealScore>3</RealScore>
+              <JudgeRule>
+                <RightRule>
+                  <Score>3</Score>
+                  <RuleShowInfo>合适</RuleShowInfo>
+                </RightRule>
+                <WrongRule>
+                  <Score>0</Score>
+                  <RuleShowInfo>不合适</RuleShowInfo>
+                </WrongRule>
+              </JudgeRule>
+            </Para>
+          </Group>
+          <RealScore>3</RealScore>
+        </TestTarget>
+        <!--8、扫描四氯化碳的特征谱线   20分-->
+        <TestTarget>
+          <Script>将测量数据填入下列表格内。</Script>
+          <Group>
+            <Para StudentVisible="True">
+              <sn>6</sn>
+              <Name>SLHTPuXianC2</Name>
+              <VarType Count="5">TList</VarType>
+              <Script>选择四氯化碳样品进行测量，并将四氯化碳的5条斯托克斯线,按照波长由小到大的顺序填入下列表格内,根据公式计算出特征峰的波数差。光强I[:]的右下标第一个符号表示入射光的电矢量与散射平面的关系，第二个符号表示散射光的电矢量与散射平面的关系；(π/2)表示观测方向在散射平面内与入射光传播方向的夹角。记录实验数据：</Script>
+              <RealResult>(谱线编号,特征峰波长（nm）,波数差（cm-1）,I[⊥:∥](π/2),I[⊥:⊥](π/2),I[∥:⊥](π/2),I[∥:∥](π/2),ρ⊥(π/2),ρ∥(π/2));(第一条,523.0,323.5,569.6,701.9,563.4,582.1,0.812,0.968);(第二条,525.9,218,752.9,1024.6,747.5,750.7,0.735,0.996);(第三条,538.2,-216.5,1402.7,1898.1,1398.6,1431.8,0.739,0.977);(第四条,541.3,-323.0,1368.5,1894.5,1377.0,1367.1,0.722,1.011);(第五条,554.5,-762.7,245.7,345.6,243.7,258.2,0.711,0.944)</RealResult>
+              <StdResult>(谱线编号,特征峰波长（nm）,波数差（cm-1）,I[⊥:∥](π/2),I[⊥:⊥](π/2),I[∥:⊥](π/2),I[∥:∥](π/2),ρ⊥(π/2),ρ∥(π/2));(第一条,538.2,-218.1,1718.3,2398.7,1711.7,1759.2,0.716,0.973);(第二条,541.3,-324.5,1771.0,2493.6,1782.1,1769.0,0.710,1.007);(第三条,545.3,-459.5,98.2,6555.0,86.3,106.7,0.015,0.809);(第四条,554.5,-762.2,329.4,452.7,326.5,346.2,0.728,0.943);(第五条,555.3,-790.2,329.4,452.7,326.5,346.2,0.728,0.943)</StdResult>
+              <StdResultShowInfo>原值</StdResultShowInfo>
+              <StdSource>Exp</StdSource>
+              <TotalScore>20</TotalScore>
+              <RealScore>4.5</RealScore>
+              <Para>
+                <Sn>0</Sn>
+                <Name>INDEX</Name>
+                <Script>谱线编号;第一条;第二条;第三条;第四条;第五条</Script>
+                <VarType>int</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+              </Para>
+              <Para>
+                <sn>1</sn>
+                <Name>BoChangC2</Name>
+                <Script>特征峰波长（nm）</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-2.0</Min>
+                      <Max>2.0</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>2</sn>
+                <Name>BoShuChaC2</Name>
+                <Script>波数差（cm-1）</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-3.0</Min>
+                      <Max>3.0</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>3</sn>
+                <Name>IVH</Name>
+                <Script>I[⊥:∥](π/2)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.15</Min>
+                      <Max>0.15</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>4</sn>
+                <Name>IVV</Name>
+                <Script>I[⊥:⊥](π/2)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.15</Min>
+                      <Max>0.15</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>5</sn>
+                <Name>IHV</Name>
+                <Script>I[∥:⊥](π/2)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.15</Min>
+                      <Max>0.15</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>6</sn>
+                <Name>IHH</Name>
+                <Script>I[∥:∥](π/2)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>百分比</Type>
+                      <Min>-0.15</Min>
+                      <Max>0.15</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>7</sn>
+                <Name>TPDV</Name>
+                <Script>ρ⊥(π/2)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.1</Min>
+                      <Max>0.1</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+              <Para>
+                <sn>8</sn>
+                <Name>TPDH</Name>
+                <Script>ρ∥(π/2)</Script>
+                <VarType>double</VarType>
+                <RealResult>未知</RealResult>
+                <StdResult>未知</StdResult>
+                <StdSource>Exp</StdSource>
+                <JudgeRule>
+                  <Rule>
+                    <StdValue>1</StdValue>
+                    <Range>
+                      <Type>绝对值</Type>
+                      <Min>-0.1</Min>
+                      <Max>0.1</Max>
+                    </Range>
+                    <Score>0.5</Score>
+                    <RuleShowInfo>每空正确</RuleShowInfo>
+                  </Rule>
+                </JudgeRule>
+              </Para>
+            </Para>
+          </Group>
+          <RealScore>4.5</RealScore>
+        </TestTarget>
+      </CheckPoint>
+    </Question>
+  </Content>
+</ExamPaper>

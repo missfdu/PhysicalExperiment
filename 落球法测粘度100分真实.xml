@@ -12,7 +12,7 @@
       <Name>使用者姓名</Name>
       <Time>
         <MaxTime>考试时间限制</MaxTime>
-        <RealTime>3276</RealTime>
+        <RealTime>2625</RealTime>
       </Time>
     </User>
     <FinalResult>true</FinalResult>
